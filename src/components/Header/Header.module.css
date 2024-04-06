@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    width: 100%;
+    padding: 1em 2em;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1em 0;
+
+    z-index: 10;
+}
+
+.navItem {
+    font-size: 2em;
+    font-weight: 700;
+    color: #ccc;
+}
+.navItem:hover {
+    color: red;
+}

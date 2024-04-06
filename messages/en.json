@@ -1,0 +1,58 @@
+{
+  "Header": {
+    "title1": "Design",
+    "title2": "Development",
+    "title3": "Marketing",
+    "title4": "Ready-made Solutions ",
+    "title5": "More",
+
+    "subtitle1-1": "UX/UI Design",
+    "subtitle1-2": "UX/UI Design",
+    "subtitle1-3": "UX/UI Design",
+
+    "subtitle2-1": "Back-End",
+    "subtitle2-2": "Front-End",
+    "subtitle2-3": "Full Stack",
+
+    "subtitle3-1": "Product branding",
+    "subtitle3-2": "SEO Advertising",
+    "subtitle3-3": "Full Stack",
+
+    "subtitle4-1": "IP telephony implementation & administration",
+    "subtitle4-2": "Implementation of security systems",
+    "subtitle4-4": "Integration of systems using API",
+    "subtitle4-5": "Chat bot implementations",
+    "subtitle4-6": "Ready Billing system",
+    "subtitle4-7": "IPTV/OTT",
+
+    "subtitle5-1": "Service",
+    "subtitle5-2": "Service",
+    "subtitle5-3": "Service"
+  },
+  "Hero": {
+    "title-line1": "we are ready to",
+    "title-line2": "with you bussiness",
+    "subtitle": "At our company, we're prepared for any challenge to ensure your business thrives. We're ready to create anything people desire, turning your ideas into digital solutions that exceed your expectations!",
+    "button": "Start cooperation"
+  },
+  "Index": {
+    "title": "Hello World"
+  },
+  "Footer": {
+    "title": "1234",
+    "subtitle": "fasdf"
+  },
+  "achievements": {
+    "title": "The Pinnacle of",
+    "blueTitle": "Professional Excellence",
+    "subtitle": "Our company stands as a beacon of excellence, having aided numerous businesses in achieving their goals. With a wealth of knowledge and a team of seasoned professionals, we bring extensive experience to every project. Our track record speaks volumes, as satisfied clients continue to be our greatest testament.",
+    "subtitleSecond": "Driven by a passion for innovation and a commitment to excellence, we continuously strive to exceed expectations. Our collaborative approach ensures that each client receives personalised attention and solutions tailored to their unique needs. ",
+    "buttonText": "More about us",
+    "titleSecond": "The achievements of our team, validated by the results attained"
+  },
+  "designSection" : {
+    "title": "Design",
+    "subtitle": "Crafting Visual Excellence",
+    "description": "From Concept to Creation, Your Vision Brought to Life"
+  }
+}
