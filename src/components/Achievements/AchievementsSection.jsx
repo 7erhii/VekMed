@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import styles from "./AchievementsSection.module.css";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import PinnacleImage from "@/assets/images/img-pinnacle.png";
 
 import AchievementCard from "./AchievementCard";
@@ -97,47 +97,19 @@ export default function AchievementsSection() {
             <h2 className={styles.pageTitlesElements}>
               {t("titleSecond")
                 .split(" ")
-                .map((word, index, words) => {
-                  let specialWord = [
-                    "team,",
-                    "команда,",
-                    "results",
-                    "результаты",
-                  ].includes(word);
-                  let blueWord = [
-                    "The",
-                    "achievements",
-                    "results",
-                    "attained",
-                  ].includes(word);
+                .map((word, index) => {
+                  let specialWord = ["team,", "команда,", "results", "результаты"].includes(word);
+                  let blueWord = ["The", "achievements", "results", "attained"].includes(word);
 
-                  if (specialWord || blueWord) {
-                    return (
-                      <React.Fragment key={index}>
-                        <span
-                          style={
-                            blueWord ? { color: "#0D99FF" } : { color: "#fff" }
-                          }
-                        >
-                          {word}
-                        </span>
-                        {specialWord && <br />}
-                      </React.Fragment>
-                    );
-                  } else {
-                    return <span key={index}>{word}</span>;
-                  }
-                })
-                .reduce<(React.ReactNode | string)[]>(
-                  (acc, word, index, array) => {
-                    if (word.type !== "br" && index < array.length - 1) {
-                      return [...acc, word, " "];
-                    } else {
-                      return [...acc, word];
-                    }
-                  },
-                  []
-                )}
+                  return (
+                    <React.Fragment key={index}>
+                      <span style={blueWord ? { color: "#0D99FF" } : { color: "#fff" }}>
+                        {word}
+                      </span>
+                      {specialWord ? <br /> : " "}
+                    </React.Fragment>
+                  );
+                })}
             </h2>
           </div>
           <div className={styles.achievementsCards}>

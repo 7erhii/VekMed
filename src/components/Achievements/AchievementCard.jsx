@@ -1,14 +1,7 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import React from "react"; 
 
-interface AchievementCardProps {
-  icon: StaticImageData; 
-  number: number | string;
-  text: string;
-  borderRadius: string;
-}
-
-const AchievementCard: React.FC<AchievementCardProps> = ({ icon, number, text, borderRadius }) => {
+const AchievementCard = ({ icon, number, text, borderRadius }) => {
   return (
     <div style={{
       borderRadius: borderRadius,
@@ -23,7 +16,7 @@ const AchievementCard: React.FC<AchievementCardProps> = ({ icon, number, text, b
           src={icon}
           alt=""
           fill
-          style={{ objectFit: "contain", objectPosition: "center" }} // Примените стили здесь, если это необходимо
+          style={{ objectFit: "contain", objectPosition: "center" }}
         />
       </div>
       <div style={{
