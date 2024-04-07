@@ -33,7 +33,7 @@ import iconNodeJs from "@/assets/icons/icon-nodejs.svg";
 export default function Development() {
   const t = useTranslations("DeveopmentSection");
 
-  const cardsData = {
+  const cardsDataFront = {
     grid1: [
       { type: "single", image: iconHtml, text: "HTML" },
       {
@@ -56,6 +56,22 @@ export default function Development() {
       { type: "single", image: iconReact, text: "React" },
       { type: "single", image: iconElementor, text: "Elementor" },
       { type: "single", image: iconTypescript, text: "TypeScript" },
+    ],
+  };
+
+  const cardsDataBack = {
+    grid1: [
+      { type: "single", image: iconPhp, text: "HTML" }
+    ],
+    //
+    grid2: [
+      { type: "single", image: iconMysql, text: "MySQL" },
+    ],
+    grid3: [
+      { type: "single", image: iconPython, text: "Python" },
+    ],
+    grid: [
+      { type: "single", image: iconNodeJs, text: "Node Js" },
     ],
   };
 
@@ -99,7 +115,11 @@ export default function Development() {
         />
 
         <BorderedTitle title={"DeveopmentSection"} />
-        <GridCards cardsData={cardsData} />
+        <GridCards cardsData={cardsDataFront} />
+
+        <BorderedTitle title={"FrontEndSection"} />
+        <GridCards cardsData={cardsDataBack} />
+
 
         {/* <WorkSlider /> */}
         {/* <div className={styles.designAction}>

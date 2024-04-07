@@ -104,7 +104,23 @@
     "description": "Innovative Solutions Tailored to Your Needs",
     "doubleCardText": "Nulla euismod sem eu fermentum volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus Nulla euismod sem eu fermentum volutpat. Interdum et"
   },
+  
   "BorderTitles": {
-    "DeveopmentSection": "Back-end development"
+    "DeveopmentSection": "Front-end development",
+    "FrontEndSection": "Back-end development"
+  },
+  "MarketingSection": {
+    "title": "marketing",
+    "subtitle": "Strategic Impact",
+    "description": "Connecting Your Brand with the Right Audience"
+  },
+  "MarketingCards": {
+    "card1": "Development\nmulti-page websites",
+    "card2": "Fast Landing page\ndevelopment",
+    "card3": "Product branding",
+    "card4": "Advertising\nin the media",
+    "card5": "Outdoor advertising",
+    "card6": "Mobile app development",
+    "card7": "View more services"
   }
 }

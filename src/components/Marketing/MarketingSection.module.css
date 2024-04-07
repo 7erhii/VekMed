@@ -1,0 +1,99 @@
+.AchievementsSection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  background-color: #151515;
+  color: #fff;
+}
+
+.achievementsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievementsPinnacle {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5em 7.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievementsPinnacleText {
+  padding-right: 3em;
+  width: 50%;
+}
+
+.achievementsPinnacleTitle {
+}
+
+.achievementsPinnacleSubtitle {
+}
+
+.achievementsPinnacleAction {
+}
+
+.pageTitlesElements {
+  font-size: 2.5em;
+  /* padding: 0 8em; */
+}
+
+.achievementsPinnacleButton {
+  background: #3c7bf6;
+  padding: 1em 2em;
+  border-radius: 200px;
+  font-size: 1.5em;
+  transition: background-color 0.24s ease-in-out;
+}
+
+.achievementsPinnacleButton:hover {
+  background: #2554c7;
+}
+
+.achievementsPinnacleImage {
+  width: 50%;
+}
+
+.achievementsResults {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5em 7.5em;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.achievementsTitle {
+  display: flex;
+
+  /* background: rebeccapurple; */
+
+}
+
+.achievementsCards {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 5em 7.5em; */
+  padding-top: 4em;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+
+}
+
+.designAction {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-top: 4em;
+}

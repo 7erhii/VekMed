@@ -13,6 +13,7 @@ import AchievementsSection from "@/components/Achievements/AchievementsSection";
 import DesignSection from "@/components/Design/DesignSection";
 import WorkSection from "@/components/Work/WorkSection";
 import Development from "@/components/Development/Development";
+import MarketingSection from "@/components/Marketing/MarketingSection";
 // import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -39,6 +40,7 @@ export default function RootLayout({ children, params: { locale } }) {
           <DesignSection></DesignSection>
           <WorkSection></WorkSection>
           <Development></Development>
+          <MarketingSection></MarketingSection>
 
           {/* <Footer /> */}
         </div>
