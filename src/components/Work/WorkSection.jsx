@@ -7,6 +7,7 @@ import SectionTitle from "../ui/SectionTitle/SectionTitle";
 // import DesegnSlider from "./DesegnSlider/DesegnSlider";
 import WorkSlider from "./WorkSlider/WorkSlider";
 
+
 import MainButton from "../ui/MainButton/MainButton";
 
 export default function WorkSection() {
@@ -48,6 +49,7 @@ export default function WorkSection() {
         styleType="sectionTitleWhite"
       />
       <WorkSlider />
+
       {/* <div className={styles.designAction}>
       <MainButton text={t("buttonRight")} color="Blue" size="medium"/>
       <MainButton text={t("buttonLeft")} color="White" size="medium"/>

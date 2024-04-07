@@ -101,6 +101,10 @@
   "DeveopmentSection": {
     "title": "DEVELOPMENT",
     "subtitle": "Building Your Wishes",
-    "description": "Innovative Solutions Tailored to Your Needs"
+    "description": "Innovative Solutions Tailored to Your Needs",
+    "doubleCardText": "Nulla euismod sem eu fermentum volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus Nulla euismod sem eu fermentum volutpat. Interdum et"
+  },
+  "BorderTitles": {
+    "DeveopmentSection": "Back-end development"
   }
 }
