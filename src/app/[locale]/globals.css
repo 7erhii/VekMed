@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: 'DM Sans';
   src: url('/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf') format('truetype-variations');

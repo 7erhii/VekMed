@@ -2,14 +2,15 @@ import React from "react";
 
 import { useTranslations } from "next-intl";
 
-import styles from "./DesignSection.module.css";
+import styles from "./Development.module.css";
 import SectionTitle from "../ui/SectionTitle/SectionTitle";
-import DesegnSlider from "./DesegnSlider/DesegnSlider";
+// import DesegnSlider from "./DesegnSlider/DesegnSlider";
+// import WorkSlider from "./WorkSlider/WorkSlider";
 
 import MainButton from "../ui/MainButton/MainButton";
 
-export default function DesignSection() {
-  const t = useTranslations("designSection");
+export default function Development() {
+  const t = useTranslations("DeveopmentSection");
 
   return (
     <div>
@@ -19,7 +20,7 @@ export default function DesignSection() {
           .split(" ")
           .map((word, index, words) => {
             let specialWord = ["Visual"].includes(word);
-            let blueWord = ["Visual", "Excellence"].includes(word);
+            let blueWord = ["Your", "Wishes"].includes(word);
 
             if (specialWord || blueWord) {
               return (
@@ -44,13 +45,14 @@ export default function DesignSection() {
             }
           }, [])}
         description={t("description")}
-        styleType="sectionTitleWhite"
+        styleType="sectionTitleDark"
       />
-      <DesegnSlider />
-      <div className={styles.designAction}>
-        <MainButton text={t("buttonRight")} color="Blue" size="medium" />
-        <MainButton text={t("buttonLeft")} color="White" size="medium" />
-      </div>
+      
+      {/* <WorkSlider /> */}
+      {/* <div className={styles.designAction}>
+      <MainButton text={t("buttonRight")} color="Blue" size="medium"/>
+      <MainButton text={t("buttonLeft")} color="White" size="medium"/>
+      </div> */}
     </div>
   );
 }

@@ -1,0 +1,46 @@
+.sliderContainer {
+  padding: 0 1.5em;
+  
+}
+
+.sliderItem {
+  background: #3c7bf6;
+  border-radius: 12px;
+}
+
+.DesignItem:hover .DesignSliderIcon {
+  transform: scale(1.2);
+}
+
+.sliderImage {
+  border-radius: 12px 12px 0 0;
+}
+
+.sliderText {
+}
+
+.slideTitle {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+}
+.slideSubtitle {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.sliderBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 2em;
+}
+
+.DesignSliderIcon {
+  color: white;
+  width: 1.5em;
+  height: 1.5em;
+  transition: transform 0.24s ease;
+}

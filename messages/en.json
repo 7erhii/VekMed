@@ -50,9 +50,57 @@
     "buttonText": "More about us",
     "titleSecond": "The achievements of our team, validated by the results attained"
   },
-  "designSection" : {
+  "designSection": {
     "title": "Design",
     "subtitle": "Crafting Visual Excellence",
-    "description": "From Concept to Creation, Your Vision Brought to Life"
+    "description": "From Concept to Creation, Your Vision Brought to Life",
+    "buttonRight": "Get in touch",
+    "buttonLeft": "More projects"
+  },
+
+  "SlidesDesign": {
+    "titles": {
+      "title": "Museum",
+      "title2": "Arctic Travel",
+      "title3": "Albion"
+    },
+    "subtitles": {
+      "subtitle1": "Design / Development",
+      "subtitle2": "Design / Development",
+      "subtitle3": "Design / Development"
+    }
+  },
+
+  "workSection": {
+    "title": "work process",
+    "subtitle": "Efficiency in Action",
+    "description": "Streamlining Success: Our Proven Methodology",
+    "buttonRight": "Get in touch",
+    "buttonLeft": "More projects"
+  },
+  "SlidesWork": {
+    "steps": {
+      "step1": "STEP 1",
+      "step2": "STEP 2",
+      "step3": "STEP 3",
+      "step4": "STEP 4"
+    },
+    "titles": {
+      "title1": "Discussion and analysis",
+      "title2": "UI/UX Design",
+      "title3": "Development",
+      "title4": "Deployment"
+    },
+    "descr": {
+      "descr1": "Engage in in-depth discussions to analyze project goals and requirements, ensuring a strategic roadmap.",
+      "descr2": "Craft captivating designs for seamless user experiences, blending creativity and functionality.",
+      "descr3": "Bring visions to life with scalable, secure solutions using cutting-edge technologies and best practices.",
+      "descr4": "Ensure a smooth rollout of solutions with efficient planning and execution, minimizing downtime."
+    }
+  },
+  "DeveopmentSection": {
+    "title": "DEVELOPMENT",
+    "subtitle": "Building Your Wishes",
+    "description": "Innovative Solutions Tailored to Your Needs"
   }
 }

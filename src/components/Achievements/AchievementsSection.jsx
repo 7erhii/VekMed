@@ -10,6 +10,8 @@ import ArrowIcon from "@/assets/icons/icon-card-target.png";
 import CheckIcon from "@/assets/icons/icon-card-check.png";
 import UserIcon from "@/assets/icons/icon-card-user.png";
 
+import MainButton from "../ui/MainButton/MainButton";
+
 import React from "react";
 
 export default function AchievementsSection() {
@@ -80,11 +82,7 @@ export default function AchievementsSection() {
               </p>
             </div>
             <div className={styles.achievementsPinnacleAction}>
-              <button
-                className={`${styles.achievementsPinnacleButton} font-sans`}
-              >
-                {t("buttonText")}
-              </button>
+              <MainButton text={t("buttonText")} color="Blue" size="medium" />
             </div>
           </div>
           <div className={styles.achievementsPinnacleImage}>
@@ -98,12 +96,26 @@ export default function AchievementsSection() {
               {t("titleSecond")
                 .split(" ")
                 .map((word, index) => {
-                  let specialWord = ["team,", "команда,", "results", "результаты"].includes(word);
-                  let blueWord = ["The", "achievements", "results", "attained"].includes(word);
+                  let specialWord = [
+                    "team,",
+                    "команда,",
+                    "results",
+                    "результаты",
+                  ].includes(word);
+                  let blueWord = [
+                    "The",
+                    "achievements",
+                    "results",
+                    "attained",
+                  ].includes(word);
 
                   return (
                     <React.Fragment key={index}>
-                      <span style={blueWord ? { color: "#0D99FF" } : { color: "#fff" }}>
+                      <span
+                        style={
+                          blueWord ? { color: "#0D99FF" } : { color: "#fff" }
+                        }
+                      >
                         {word}
                       </span>
                       {specialWord ? <br /> : " "}

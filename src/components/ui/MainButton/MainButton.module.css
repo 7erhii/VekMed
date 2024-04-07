@@ -1,0 +1,28 @@
+.mainButton {
+  font-family: "DM Sans", sans-serif;
+  padding: 1em 2em;
+  border-radius: 100px;
+  min-width: 12em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.mainButtonBlue {
+  background: #3c7bf6;
+  color: #fff;
+}
+.mainButtonWhite {
+  background: rgba(21, 21, 21, 0.05);
+  color: #151515;
+}
+
+.medium {
+  font-size: 1em;
+}
+.large {
+  font-size: 20px;
+  padding: 1.5em 3em;
+}
+.small {
+  font-size: 12px;
+  padding: 0.5em 1em;
+}

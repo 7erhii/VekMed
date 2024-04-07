@@ -1,0 +1,69 @@
+.sliderWrapper {
+  padding: 0 1.5em;
+
+  /* width: 30%; */
+  /* margin: 0 auto; */
+  padding-bottom: 10em;
+}
+
+.sliderContainer {
+  border-radius: 12px 0 0 12px;
+}
+
+/*  */
+.SliderItem {
+  display: flex;
+  flex-direction: row;
+  background: #2e7bee;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.sliderAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.sliderDescr {
+  width: 80%;
+  padding: 1.5em 2.5em;
+
+  background: hsl(0, 0%, 8%);
+  border-radius: 0 12px 12px 0;
+}
+
+/* .sliderImage {
+  border-radius: 12px 12px 0 0;
+} */
+
+.sliderText {
+  /* padding: 1.5em 2em;
+  background: #151515; */
+}
+
+.slideKey {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  color: #ffffff60;
+}
+.slideTitle {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+  padding-top: 0.5em;
+}
+.slideSubtitle {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 100;
+  padding-top: 0.5em;
+}
+
+.WorkSliderIcon {
+  color: white;
+  width: 2em;
+  height: 2em;
+  transition: transform 0.24s ease;
+}
