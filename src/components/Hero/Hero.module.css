@@ -1,0 +1,96 @@
+.heroBg {
+  position: relative;
+}
+
+.heroCardsContainer {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0em 10em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  gap: 2em;
+}
+
+.prevButton {
+  width: 40px;
+  height: 400px;
+  background: rebeccapurple;
+}
+.nextButton {
+  width: 40px;
+  height: 400px;
+  background: rgb(153, 51, 51);
+}
+
+/* .heroCardsFlipped {
+  width: 100%;
+  padding: 0em 10em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+} */
+
+/* .heroCardImage {
+  height: 55.56em;
+  width: 45.6em;
+
+} */
+
+.heroCardImageFirst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(7deg);
+}
+.heroCardImageSecond {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-7deg);
+}
+
+.heroCardImageThird {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heroCardImageFourth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heroActions {
+  position: absolute;
+  display: flex;
+  bottom: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5em;
+  border-radius: 50px;
+  gap: 0.8em;
+}
+
+.heroButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 50px;
+}
+
+.heroButtonActive {
+  background: rgba(255, 255, 255, 0.25);
+}
