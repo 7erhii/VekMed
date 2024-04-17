@@ -104,7 +104,7 @@
     "description": "Innovative Solutions Tailored to Your Needs",
     "doubleCardText": "Nulla euismod sem eu fermentum volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus Nulla euismod sem eu fermentum volutpat. Interdum et"
   },
-  
+
   "BorderTitles": {
     "DeveopmentSection": "Front-end development",
     "FrontEndSection": "Back-end development"
@@ -122,5 +122,46 @@
     "card5": "Outdoor advertising",
     "card6": "Mobile app development",
     "card7": "View more services"
+  },
+  
+  "ReadySection": {
+    "title": "ready-made",
+    "subtitle": "Inspiration On Demand",
+    "description": "Explore Our Services & Completed Success Stories",
+    "ReadyCards": {
+      "card1": {
+        "title": "Ready-made solutions for IPTV/OTT",
+        "descr": "Streamline your content delivery with our ready-made IPTV/OTT solutions, designed to provide seamless entertainment experiences across multiple devices. Explore our comprehensive suite of features and accelerate your entry into the rapidly growing IPTV/OTT market."
+      },
+      "card2": {
+        "title": "IP telephony implementation & administration",
+        "descr": "Transform your communication infrastructure with our IP telephony implementation and administration services. From design to deployment and ongoing management, we ensure a smooth transition to next-generation communication systems, enhancing collaboration and efficiency across your organization."
+      },
+      "card3": {
+        "title": "Implementation of security systems",
+        "descr": "Safeguard your assets and data with our expert implementation of security systems."
+      },
+      "card4": {
+        "title": "Implementation of a CRM system",
+        "descr": "Unlock the full potential of your customer relationships with our CRM system implementation services."
+      },
+      "card5": {
+        "title": "Integration of systems using API",
+        "descr": "Seamlessly connect your systems and unlock new possibilities with our API integration services."
+      },
+      "card6": {
+        "title": "Chat bot implementations",
+        "descr": "Revolutionize your customer support and engagement with our chatbot implementations. Powered by AI and natural language processing, our chatbots provide personalized assistance, automate routine tasks, and deliver round-the-clock support, enhancing customer satisfaction and operational efficiency."
+      },
+      "card7": {
+        "title": "Ready Billing system",
+        "descr": "Simplify your billing processes and improve cash flow with our ready billing system. Designed to handle complex billing scenarios with ease, our solution offers flexibility, scalability, and accuracy, empowering you to focus on growth while we take care of the rest."
+      }
+    }
+  },
+  "ClientsSection": {
+    "title": "CLIENTS",
+    "subtitle": "Our best clients",
+    "description": "Join Our Network of Satisfied Collaborators"
   }
 }

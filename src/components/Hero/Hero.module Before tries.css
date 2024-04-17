@@ -48,40 +48,28 @@
 
 .heroCardImageFirst {
   position: absolute;
-  /* top: 50%; */
-  top: -15em;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(7deg);
-  border-radius: 40px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 .heroCardImageSecond {
   position: absolute;
-  /* top: 50%; */
-  top: -15em;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-7deg);
-  border-radius: 40px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 
 .heroCardImageThird {
   position: absolute;
-  /* top: 50%; */
-  top: -15em;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 40px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 .heroCardImageFourth {
   position: absolute;
-  /* top: 50%; */
-  top: -15em;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 40px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 .heroActions {
   position: absolute;

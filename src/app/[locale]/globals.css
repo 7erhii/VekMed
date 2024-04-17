@@ -115,3 +115,9 @@ h1, h2, h3, h4, h5, h6, p, span {
 /* .main-btn.main-btn--blue {
   background: red;
 } */
+
+
+.slick-track {
+  display: flex!important;
+  align-items: center;
+}
