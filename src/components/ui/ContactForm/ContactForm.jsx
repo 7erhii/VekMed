@@ -1,4 +1,6 @@
 "use client";
+
+import Image from "next/image";
 import React from "react";
 import { useTranslations } from "next-intl";
 import { Input } from "@/components/ui/input";
@@ -22,6 +24,7 @@ import { Button } from "@/components/ui/button"
 
 
 import { MdOutlineQuestionMark } from "react-icons/md";
+import iconQuestion from "@/assets/icons/icon-question.svg";
 
 import styles from "./ContactForm.module.css";
 
@@ -139,7 +142,8 @@ export default function ContactForm({ data = contactFormData }) {
                   <Tooltip>
                     <TooltipTrigger asChild>
                       <button>
-                        <MdOutlineQuestionMark />
+                        {/* <MdOutlineQuestionMark /> */}
+                        <Image src={iconQuestion} alt="question" />
                       </button>
                     </TooltipTrigger>
                     <TooltipContent>
