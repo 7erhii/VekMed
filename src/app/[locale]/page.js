@@ -16,6 +16,7 @@ import Development from "@/components/Development/Development";
 import MarketingSection from "@/components/Marketing/MarketingSection";
 import Ready from "@/components/Ready/Ready";
 import Clients from "@/components/Clients/Clients";
+import Industries from "@/components/Industries/Industries";
 // import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -38,14 +39,16 @@ export default function RootLayout({ children, params: { locale } }) {
         <div className="flex flex-col min-h-screen">
           {/* <Header />
           <Hero></Hero> */}
-          <AchievementsSection></AchievementsSection>
-          <DesignSection></DesignSection>
-          <WorkSection></WorkSection>
-          <Development></Development>
-          <MarketingSection></MarketingSection>
+          {/* <AchievementsSection></AchievementsSection> */}
+          {/* <DesignSection></DesignSection> */}
+          {/* <WorkSection></WorkSection> */}
+          {/* <Development></Development> */}
+          {/* <MarketingSection></MarketingSection> */}
 
           <Ready />
           <Clients/>
+          <Industries/>
+          
           
 
           {/* <Footer /> */}

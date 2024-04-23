@@ -123,7 +123,7 @@
     "card6": "Mobile app development",
     "card7": "View more services"
   },
-  
+
   "ReadySection": {
     "title": "ready-made",
     "subtitle": "Inspiration On Demand",
@@ -163,5 +163,67 @@
     "title": "CLIENTS",
     "subtitle": "Our best clients",
     "description": "Join Our Network of Satisfied Collaborators"
+  },
+
+  "IndustriesSections": {
+    "title": "Industries",
+    "subtitle": "Industries we work with",
+    "description": "Empowering Success Across Multiple Sectors",
+    "IndustriesCards": {
+      "card1": {
+        "title": "E-commerce"
+      },
+      "card2": {
+        "title": "Medicine"
+      },
+      "card3": {
+        "title": "Hospitality and Tourism"
+      },
+      "card4": {
+        "title": "Education"
+      },
+      "card5": {
+        "title": "Real Estate"
+      },
+      "card6": {
+        "title": "Professional Services"
+      }
+    }
+  },
+
+  "ContactForm": {
+    "title": "Get In Touch With Your Future Partners!",
+    "description": "Let's explore your project concept collaboratively. Get in touch with us to outline your objectives and explore how we can support you.",
+    "inputName": {
+      "label": "Name or Company name",
+      "placeholder": "Enter name or company name"
+    },
+    "inputEmployees": {
+      "label": "Number of employees (optional)",
+      "placeholder": "Enter number",
+      "tooltip": "The number of employees is required if you choose a service for a company"
+    },
+    "inputEmail": {
+      "label": "Email",
+      "placeholder": "Enter email"
+    },
+    "inputPhone": {
+      "label": "Phone number",
+      "placeholder": "Enter phone number"
+    },
+    "inputDropdown": {
+      "label": "Area / Section",
+      "placeholder": "What area/section do you like?",
+      "options": {
+        "option1": "option1",
+        "option2": "option22",
+        "option3": "option33",
+        "option4": "option44"
+      }
+    },
+    "inputTextarea": {
+      "label": "Tell more about project",
+      "placeholder": "Tell us more about you wishes"
+    }
   }
 }

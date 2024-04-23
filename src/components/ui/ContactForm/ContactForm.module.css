@@ -1,0 +1,61 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 54em;
+  margin: 0 auto;
+
+  padding: 4em;
+  background: #fff;
+  border-radius: 40px;
+}
+
+.ContactFormTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 34em;
+  margin: 0 auto;
+}
+
+.ContactFormTitle h2 {
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.ContactFormTitle p {
+  font-size: 1em;
+  padding-top: 1.5em;
+  color: #000;
+  letter-spacing: 0.2px;
+}
+.ContactFormInputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  margin: 3em auto;
+  gap: 1.25em;
+}
+.ContactFormLabel {
+  color: rgba(21, 21, 21, 0.8);
+  font-size: 1em;
+  font-weight: 300;
+}
+.ContactFormInput {
+  width: 100%;
+  color: #151515;
+}
+
+.ContactFormInputHaf {
+  max-width: 48%;
+}
+
+
+.ContactFormActions {
+  width: 100%;
+  max-width: 13em;
+  margin: 0 auto;
+}
