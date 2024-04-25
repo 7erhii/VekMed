@@ -1,11 +1,20 @@
-
-.pageWrapper {
+.FaqContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 9em 7.5em;
+  /* align-items: center; */
   justify-content: center;
+  padding-top: 0;
+  gap: 1.25em;
+}
 
-  background-color: #151515;
-  color: #fff;
-  padding-bottom: 10em;
+.FaqAccordion {
+display: flex;
+flex-wrap: wrap;
 }
 /* .AchievementsSection {
   display: flex;

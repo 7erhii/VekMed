@@ -17,7 +17,9 @@ import MarketingSection from "@/components/Marketing/MarketingSection";
 import Ready from "@/components/Ready/Ready";
 import Clients from "@/components/Clients/Clients";
 import Industries from "@/components/Industries/Industries";
-// import Footer from "@/components/Footer";
+import Faq from "@/components/Faq/Faq";
+import Footer from "@/components/Footer/Footer";
+import Colophon from "@/components/Colophon/Colophon";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,21 +39,24 @@ export default function RootLayout({ children, params: { locale } }) {
       <body className={"main"}>
         <FontResizer />
         <div className="flex flex-col min-h-screen">
-          {/* <Header />
-          <Hero></Hero> */}
-          {/* <AchievementsSection></AchievementsSection> */}
-          {/* <DesignSection></DesignSection> */}
-          {/* <WorkSection></WorkSection> */}
-          {/* <Development></Development> */}
-          {/* <MarketingSection></MarketingSection> */}
+          <Header />
+          <Hero></Hero>
+          <AchievementsSection></AchievementsSection>
+          <DesignSection></DesignSection>
+          <WorkSection></WorkSection>
+          <Development></Development>
+          <MarketingSection></MarketingSection>
 
           <Ready />
           <Clients/>
           <Industries/>
+
+          <Faq/>
           
           
 
-          {/* <Footer /> */}
+          <Footer />
+          <Colophon />
         </div>
       </body>
     </html>

@@ -1,0 +1,46 @@
+.CustomAccordionWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.CustomAccordionColumn {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 0 0.5em;
+  gap: 1em;
+
+}
+
+.CustomAccordionItemWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: rgba(21, 21, 21, 0.04);
+  padding: 1.5em 2em;
+  border-radius: 20px;
+  
+}
+.CustomAccordionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  
+}
+.CustomAccordionTitle {
+  font-size: 1em;
+  color: #151515;
+  font-weight: bold;
+}
+
+
+.CustomAccordionDescr {
+  padding-top: 1.5em;
+  max-width: 94%;
+  font-size: 1em;
+  color: #151515;
+  font-weight: 300;
+}

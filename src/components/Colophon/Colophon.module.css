@@ -1,12 +1,75 @@
-
-.pageWrapper {
+.ColophonContainer {
+  display: flex;
   width: 100%;
-  justify-content: center;
-
-  background-color: #151515;
+  /* padding: 9em 7.5em; */
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 5em 7.5em;
+  /* padding-top: 0; */
+  gap: 1.25em;
+  background: #151515;
   color: #fff;
-  padding-bottom: 10em;
 }
+.ColophonCopyright {
+}
+.ColophonCopyright p {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ColophonSocial {
+  display: flex;
+  gap: 0.5em;
+}
+.ColophonSocialItem {
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ColophonPolicy {
+  display: flex;
+  gap: 1em;
+}
+.ColophonPolicy a {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+}
+
+.FooterCompany {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  gap: 1em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.FooterCompany img {
+  width: 100%;
+  max-width: 17em;
+}
+
+.FooterContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.FooterContacts h3 {
+  color: rgba(255, 255, 255);
+  font-size: 0.8em;
+}
+.FooterContacts h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8em;
+}
+.FooterContacts a {
+  color: rgba(255, 255, 255);
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
 /* .AchievementsSection {
   display: flex;
   width: 100%;

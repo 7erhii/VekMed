@@ -38,10 +38,6 @@
   "Index": {
     "title": "Hello World"
   },
-  "Footer": {
-    "title": "1234",
-    "subtitle": "fasdf"
-  },
   "achievements": {
     "title": "The Pinnacle of",
     "blueTitle": "Professional Excellence",
@@ -225,5 +221,51 @@
       "label": "Tell more about project",
       "placeholder": "Tell us more about you wishes"
     }
+  },
+  "Faq": {
+    "title": "faq",
+    "subtitle": "Frequently Asked Questions",
+    "faq": {
+      "item1": {
+        "title": "What marketing strategies do you offer?",
+        "descr": "We provide a comprehensive range of marketing strategies tailored to your specific needs. Our services include social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and more. We work closely with you to develop a strategy that aligns with your goals and maximizes your online presence."
+      },
+      "item2": {
+        "title": "How long does it typically take to complete a project?",
+        "descr": "We provide a comprehensive range of marketing strategies tailored to your specific needs. Our services include social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and more. We work closely with you to develop a strategy that aligns with your goals and maximizes your online presence."
+      },
+      "item3": {
+        "title": "How do I get started with your services?",
+        "descr": "We provide a comprehensive range of marketing strategies tailored to your specific needs. Our services include social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and more. We work closely with you to develop a strategy that aligns with your goals and maximizes your online presence."
+      },
+      "item4": {
+        "title": "What industries do you specialize in?",
+        "descr": "We provide a comprehensive range of marketing strategies tailored to your specific needs. Our services include social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and more. We work closely with you to develop a strategy that aligns with your goals and maximizes your online presence."
+      },
+      "item5": {
+        "title": "Do you provide ongoing support after the project is completed?",
+        "descr": "We provide a comprehensive range of marketing strategies tailored to your specific needs. Our services include social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and more. We work closely with you to develop a strategy that aligns with your goals and maximizes your online presence."
+      },
+      "item6": {
+        "title": "What sets your development services apart from others?",
+        "descr": "We provide a comprehensive range of marketing strategies tailored to your specific needs. Our services include social media marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, content marketing, email marketing, and more. We work closely with you to develop a strategy that aligns with your goals and maximizes your online presence."
+      }
+    }
+  },
+  "Footer": {
+    "company": {
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra aliquet risus, non",
+      "contacts": {
+        "country": "Kyiv, Ukraine",
+        "street": "Lesi Ukrainky st., 123",
+        "phone": "050 132 0505",
+        "email": "Test.email@gmail.com"
+      }
+    }
+  },
+  "Colophon": {
+    "copyright" : "Copyright © 2024 . All rights reserved",
+    "policy" : "Privacy Policy",
+    "terms" : "Terms & Conditions"
   }
 }
