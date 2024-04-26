@@ -105,19 +105,3 @@ body {
 h1, h2, h3, h4, h5, h6, p, span {
   cursor: default;
 }
-
-.main-btn {
-  /* padding: 1.62em 2em; */
-  border-radius: 200px;
-  text-wrap: nowrap;
-}
-
-/* .main-btn.main-btn--blue {
-  background: red;
-} */
-
-
-.slick-track {
-  display: flex!important;
-  align-items: center;
-}

@@ -1,25 +1,15 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import styles from "./Page.module.css";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 import FontResizer from "@/components/FontResizer.js";
 
-import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
-import AchievementsSection from "@/components/Achievements/AchievementsSection";
-import DesignSection from "@/components/Design/DesignSection";
-import WorkSection from "@/components/Work/WorkSection";
-import Development from "@/components/Development/Development";
-import MarketingSection from "@/components/Marketing/MarketingSection";
-import Ready from "@/components/Ready/Ready";
-import Clients from "@/components/Clients/Clients";
-import Industries from "@/components/Industries/Industries";
-import Faq from "@/components/Faq/Faq";
-import Footer from "@/components/Footer/Footer";
-import Colophon from "@/components/Colophon/Colophon";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,27 +26,10 @@ export default function RootLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body className={"main"}>
+      <body className={styles.pageWrapper}>
         <FontResizer />
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <Hero></Hero>
-          <AchievementsSection></AchievementsSection>
-          <DesignSection></DesignSection>
-          <WorkSection></WorkSection>
-          <Development></Development>
-          <MarketingSection></MarketingSection>
-
-          <Ready />
-          <Clients/>
-          <Industries/>
-
-          <Faq/>
-          
-          
-
-          <Footer />
-          <Colophon />
+        <div className="flex flex-col min-h-screen m-4">
+          <Hero />
         </div>
       </body>
     </html>

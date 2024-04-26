@@ -5,8 +5,8 @@ import { useEffect } from 'react';
 const FontSizeManager = () => {
   useEffect(() => {
     const updateFontSize = () => {
-      const maxWidth = 1440;
-      const maxFontSize = 16;
+      const maxWidth = 1920;
+      const maxFontSize = 44;
       const width = window.innerWidth;
       const fontSize = Math.min(maxFontSize, (width / maxWidth) * maxFontSize);
       document.body.style.fontSize = `${fontSize}px`;
