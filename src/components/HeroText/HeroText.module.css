@@ -1,0 +1,13 @@
+.heroText {
+}
+
+.heroTitle {
+  padding: 1em 0;
+}
+
+.heroDescr {
+  font-size: 1rem;
+  padding-left: 3em;
+  padding-top: 2em;
+  max-width: 40%;
+}

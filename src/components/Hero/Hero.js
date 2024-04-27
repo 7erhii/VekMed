@@ -4,6 +4,7 @@ import Image from "next/image";
 
 // import mainLogo from "@/assets/images/main-logo.svg";
 import Header from "@/components/Header/Header";
+import HeroText from "../HeroText/HeroText";
 
 
 
@@ -12,6 +13,7 @@ const Hero = () => {
   return (
     <div className={styles.Hero}>
       <Header/>
+      <HeroText/>
     </div>
   );
 };

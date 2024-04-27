@@ -1,5 +1,15 @@
 {
   "Header": {
-    "title": "Design"
+    "title": "vekmed",
+    "menu": {
+      "item1": "About",
+      "item2": "News",
+      "item3": "Contacts"
+    }
+  },
+  "Hero": {
+    "title": "Diagnostic Expert System .",
+    "descr": "We prioritize your health, preventing illness and treating existing conditions with advanced medical care.",
+    "lang": ""
   }
 }
