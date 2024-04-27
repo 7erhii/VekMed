@@ -1,0 +1,31 @@
+.Headline {
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-top: 1em;
+  color: #252525;
+  max-width: max-content;
+  margin: 0 auto;
+}
+.Headline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -0.5em;
+  width: 0.3em;
+  height: 0.3em;
+  background-color: #FF7272;
+  border-radius: 50%; 
+}
+.subtitle {
+  /* margin-top: 1.2em; */
+
+  /* z-index: 2; */
+  color: #252525;
+  font-size: 5em;
+  font-weight: 500;
+  line-height: 120%;
+  /* text-align: center; */
+  letter-spacing: 1.1px;
+}
