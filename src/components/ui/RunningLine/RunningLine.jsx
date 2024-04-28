@@ -20,21 +20,23 @@ export default function RunningLine({ speed = 5000, images }) {
   };
 
   return (
-    <div className={styles.runningLineContainer}>
-      <Slider {...settings}>
-        <div className={styles.slide}>
-          <p>hello</p>
-        </div>
-        <div className={styles.slide}>
-          <p>hello</p>
-        </div>
-        <div className={styles.slide}>
-          <p>hello</p>
-        </div>
-        <div className={styles.slide}>
-          <p>hello</p>
-        </div>
-      </Slider>
+    <div style={{ padding: "0.5em" }}>
+      <div className={styles.runningLineContainer}>
+        <Slider {...settings}>
+          <div className={styles.slide}>
+            <p>hello</p>
+          </div>
+          <div className={styles.slide}>
+            <p>hello</p>
+          </div>
+          <div className={styles.slide}>
+            <p>hello</p>
+          </div>
+          <div className={styles.slide}>
+            <p>hello</p>
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 }

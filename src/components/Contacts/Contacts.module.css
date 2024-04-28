@@ -1,0 +1,85 @@
+.ContactsWrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+.ContactsContainer {
+  display: flex;
+  width: 100%;
+  background: #efefef;
+  /* padding: 2rem 0.8em; */
+  border-radius: 36px;
+  padding: 0.5em;
+  gap: 1em;
+}
+
+.ContactsInfo {
+  display: flex;
+  flex-direction: column;
+  border-radius: 36px;
+  background: #89cff0;
+  padding: 3em 1em;
+  width: 100%;
+  max-width: 50%;
+
+  text-align: center;
+
+  gap: 1em;
+}
+
+.ContactsInfo h2 {
+  color: #252525;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.ContactsInfo p {
+  color: #252525;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.CantactsCardContainer {
+  display: flex;
+  gap: 1em;
+}
+
+.CantactsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 25%;
+  padding: 0.2em;
+  border-radius: 16px;
+  background-color: #89cff0;
+  box-shadow: 0 4px 8px rgba(41, 171, 226, 0.6);
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  
+}
+
+.CantactsCardIcon {
+  width: 1em;
+  height: 1em;
+  display: flex;
+}
+.CantactsCard:hover {
+  box-shadow: 0 8px 16px rgba(41, 171, 226, 0.8);
+  transform: translateY(-5px);
+}
+
+
+.CantactsCardText {
+  font-size: 1rem;
+  color: #252525;
+  font-weight: 100;
+}
+
+/*  */
+
+.ContactsForm {
+  width: 50%;
+}

@@ -6,16 +6,17 @@ import Image from "next/image";
 import Header from "@/components/Header/Header";
 import HeroText from "../HeroText/HeroText";
 
-
-
 const Hero = () => {
-  const t = useTranslations("Header")
+  const t = useTranslations("Header");
   return (
-    <div className={styles.Hero}>
-      <Header/>
-      <HeroText/>
+    <div style={{ padding: "0.5em" }}>
+      <div className={styles.Hero}>
+        <Header />
+        <HeroText />
+      </div>
     </div>
   );
 };
+
 
 export default Hero;

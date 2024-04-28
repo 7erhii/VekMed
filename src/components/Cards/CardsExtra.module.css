@@ -1,0 +1,43 @@
+.CardExtraContainer {
+  width: 100%;
+  overflow: hidden;
+  background: #efefef;
+  padding: 0.5em;
+  border-radius: 36px;
+  margin: 0.5em auto;
+  max-width: 1920px;
+}
+
+.cardExtra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 28px;
+  padding: 0.5em;
+  background: #ffffff;
+}
+
+
+.cardExtraImage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.cardExtraIcon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.cardExtraText {
+  font-size: 1em;
+  text-align: center;
+}
+
+.cardExtraTitle {
+  color: #252525;
+  font-weight: 300;
+  font-size: 0.5em;
+}

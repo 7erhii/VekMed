@@ -13,6 +13,66 @@
     "lang": ""
   },
   "Titles": {
-    "firstTitle": "Our Expertise"
+    "firstTitle": "Our Expertise",
+    "secondTitle": "recent news",
+    "getInTouch": "Get In Touch",
+    "whyWe": "why we",
+    "extra": "Aslo we can help with"
+  },
+  "Cards": {
+    "card1": {
+      "title": "Genomics",
+      "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
+    },
+    "card2": {
+      "title": "Genomics",
+      "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
+    },
+    "card3": {
+      "title": "Genomics",
+      "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
+    },
+    "card4": {
+      "title": "Genomics",
+      "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
+    }
+  },
+  "Contacts": {
+    "title": "Write to us in your favorite messanger or  > use contact form "
+  },
+  "ContactForm": {
+    "title": "Get In Touch With Your Future Partners!",
+    "description": "Let's explore your project concept collaboratively. Get in touch with us to outline your objectives and explore how we can support you.",
+    "inputName": {
+      "label": "Name or Company name",
+      "placeholder": "Enter name or company name"
+    },
+    "inputEmployees": {
+      "label": "Number of employees (optional)",
+      "placeholder": "Enter number",
+      "tooltip": "The number of employees is required if you choose a service for a company"
+    },
+    "inputEmail": {
+      "label": "Email",
+      "placeholder": "Enter email"
+    },
+    "inputPhone": {
+      "label": "Phone number",
+      "placeholder": "Enter phone number"
+    },
+    "inputDropdown": {
+      "label": "Area / Section",
+      "placeholder": "What area/section do you like?",
+      "options": {
+        "option1": "option1",
+        "option2": "option22",
+        "option3": "option33",
+        "option4": "option44"
+      }
+    },
+    "inputTextarea": {
+      "label": "Tell more about project",
+      "placeholder": "Tell us more about you wishes"
+    }
   }
 }
