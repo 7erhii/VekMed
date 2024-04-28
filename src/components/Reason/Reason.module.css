@@ -1,0 +1,32 @@
+.ReasonWrapper {
+  padding: 2rem 0.8em;
+}
+
+.ReasonContainer {
+  display: flex;
+
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #efefef;
+  padding: 4rem 2em;
+  border-radius: 36px;
+  gap: 2rem;
+}
+
+.ReasonCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ReasonText {
+}
+.ReasonText h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.ReasonText h6 {
+  font-size: 1rem;
+  font-weight: 300;
+}

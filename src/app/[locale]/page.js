@@ -21,6 +21,9 @@ import CardsExtra from "@/components/Cards/CardsExtra";
 import CustomSlider from "@/components/ui/CustomSlider/CustomSlider";
 import Container from "@/components/Container/Container";
 import Contacts from "@/components/Contacts/Contacts";
+import Reason from "@/components/Reason/Reason";
+import Faq from "@/components/Faq/Faq";
+import Footer from "@/components/Footer/Footer";
 
 import { useLocale } from "next-intl";
 
@@ -29,6 +32,7 @@ const titles = {
   News: "secondTitle",
   getInTouch: "getInTouch",
   whyWe: "whyWe",
+  faq: "faq",
   extra: "extra",
 };
 
@@ -45,13 +49,13 @@ export default function RootLayout({ children, params: { locale } }) {
         <FontResizer />
         <div className="flex flex-col min-h-screen">
           <Hero />
-          <RunningLine speed={7000} />
+          <RunningLine speed={9000} />
 
           <Container text={titles.News}>
             <CustomSlider />
           </Container>
 
-          <Container text={titles.expertise}>
+          <Container text={titles.expertise} showButton={false}>
             <Cards />
           </Container>
 
@@ -59,12 +63,16 @@ export default function RootLayout({ children, params: { locale } }) {
             <CardsExtra />
           </Container>
 
-          <Container text={titles.getInTouch}>
+          <Container text={titles.getInTouch} showButton={false}>
             <Contacts />
           </Container>
-          {/* <Container text={titles.whyWe}>
-            <Contacts />
-          </Container> */}
+          <Container text={titles.whyWe}>
+            <Reason />
+          </Container>
+          <Container text={titles.faq} showButton={false}> 
+            <Faq />
+          </Container>
+          <Footer locale={locale} />
         </div>
       </body>
     </html>

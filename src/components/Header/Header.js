@@ -13,13 +13,13 @@ const Header = () => {
       <div className={styles.container}>
         <a className={styles.logo} href="/">
           <Image src={mainLogo} alt="Main Logo" />
-          {t("title")}
+          <h2>{t("title")}</h2>
         </a>
         <nav className={styles.navMenu}>
           <ul className={styles.list}>
-            <li className={styles.listItem}>{t("menu.item1")}</li>
-            <li>{t("menu.item2")}</li>
-            <li>{t("menu.item3")}</li>
+            <li className={styles.listItem}><h4>{t("menu.item1")}</h4></li>
+            <li className={styles.listItem}><h4>{t("menu.item2")}</h4></li>
+            <li className={styles.listItem}><h4>{t("menu.item3")}</h4></li>
           </ul>
           <div className="language-menu flex items-center">
             <LanguageSwitcher />

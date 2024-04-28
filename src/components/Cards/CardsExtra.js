@@ -30,13 +30,16 @@ const cardsExtraData = [
 export default function CardsExtra({ data = cardsExtraData }) {
   const settings = {
     infinite: true,
-    slidesToShow: 8, 
+    slidesToShow: 8,
     slidesToScroll: 1,
     cssEase: "linear",
-    variableWidth: false, 
+    variableWidth: false,
     arrows: false,
-    pauseOnHover: false
+    pauseOnHover: false,
+    autoplay: true,
+    autoplaySpeed: 3000
   };
+  
 
   return (
     <div style={{ padding: "0.5em" }}>

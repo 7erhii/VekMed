@@ -1,0 +1,41 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  background: #585858;
+  padding: 4rem 2em 1rem;
+  /* border-radius: 36px; */
+  gap: 2rem;
+}
+
+.FooterUpper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1920px;
+  margin: 0 auto;
+  gap: 0.5em;
+}
+.FooterUpper a {
+  color: #89cff0;
+}
+.FooterUpper a svg {
+  height: 3rem;
+  width: 4rem;
+}
+
+.FooterLower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  border-top: 1px solid #89cff0;
+  font-size: 1rem;
+  color: #7e7e7e;
+  text-transform: capitalize;
+}

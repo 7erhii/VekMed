@@ -8,6 +8,7 @@ import mainLogo from "@/assets/icons/main-logo.svg";
 // import LanguageSwitcher from "./ui/LanguageSwitcher";
 
 import SectionTitle from "../ui/SectionTitle/SectionTitle";
+import ActionBtn from "../ui/Buttons/ActionBtn";
 
 const HeroText = () => {
   const t = useTranslations("Hero");
@@ -53,10 +54,11 @@ const HeroText = () => {
         />
       </div>
       <div className={styles.heroDescr}>{t("descr")}</div>
-      <div className={styles.heroLanguage}></div>
 
-      <div className={styles.heroAction}></div>
       <div className={styles.heroImage}></div>
+      <di className={styles.heroAction}>
+      <ActionBtn type="hero" />
+      </di>
     </div>
   );
 };

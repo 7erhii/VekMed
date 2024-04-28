@@ -12,11 +12,28 @@
     "descr": "We prioritize your health, preventing illness and treating existing conditions with advanced medical care.",
     "lang": ""
   },
+  "ActionBtn": {
+    "text": "Contact us"
+  },
+  "RunningLine": {
+    "item1": "health",
+    "item2": "prevention",
+    "item3": "vitamins",
+    "item4": "diagnostics",
+    "item5": "physiotherapy",
+    "item6": "rehabilitation",
+    "item7": "recommendations",
+    "item8": "vaccination",
+    "item9": "analyses",
+    "item10": "examination"
+  },
+
   "Titles": {
     "firstTitle": "Our Expertise",
     "secondTitle": "recent news",
     "getInTouch": "Get In Touch",
     "whyWe": "why we",
+    "faq": "FAQ",
     "extra": "Aslo we can help with"
   },
   "Cards": {
@@ -74,5 +91,32 @@
       "label": "Tell more about project",
       "placeholder": "Tell us more about you wishes"
     }
+  },
+  "Reason": {
+    "card1": {
+      "title": "asdf",
+      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+    },
+    "card2": {
+      "title": "asdf",
+      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+    },
+    "card3": {
+      "title": "asdf",
+      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+    },
+    "card4": {
+      "title": "asdf",
+      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+    }
+  },
+  "Footer": {
+    "policy": "policy"
+  },
+  "Policy": {
+    "title": "asdf"
+  },
+  "faq": {
+    
   }
 }

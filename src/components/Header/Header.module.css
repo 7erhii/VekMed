@@ -8,11 +8,18 @@
   gap: 0.5em;
 }
 
-
 .container {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.container h2 {
+  font-size: 3rem;
+  color: #89cff0;
+  font-weight: 500;
+
+  text-transform: uppercase;
 }
 
 .navMenu {
@@ -25,4 +32,39 @@
   display: flex;
 }
 
-.list li { padding: 1em;}
+.list li {
+  padding: 0.2em 1em;
+}
+
+.listItem {
+  position: relative;
+
+}
+.listItem h4 {
+  color: #252525;
+  font-size: 1.5rem;
+  transition: scale 0.24s ease-in-out;
+  cursor: pointer;
+}
+
+.listItem h4:hover {
+  position: relative;
+  color: #FF7272;
+  text-transform: underline;
+  transform: scale(1.02);
+
+}
+
+.listItem::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  width: 1px;
+  height: 30%;
+  background: #252525;
+  opacity: 0.9;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(35deg);
+}
+
