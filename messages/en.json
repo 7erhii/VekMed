@@ -38,19 +38,19 @@
   },
   "Cards": {
     "card1": {
-      "title": "Genomics",
+      "title": "Prevention",
       "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
     },
     "card2": {
-      "title": "Genomics",
+      "title": "Consultation",
       "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
     },
     "card3": {
-      "title": "Genomics",
+      "title": "Examination",
       "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
     },
     "card4": {
-      "title": "Genomics",
+      "title": "Prescription",
       "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
     }
   },
@@ -92,31 +92,31 @@
       "placeholder": "Tell us more about you wishes"
     }
   },
+
   "Reason": {
     "card1": {
-      "title": "asdf",
-      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+      "title": "Privacy",
+      "descr": "We prioritize your confidentiality with secure, private consultations and patient care."
     },
     "card2": {
-      "title": "asdf",
-      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+      "title": "Competent specialists",
+      "descr": "Our team of highly qualified and experienced medical professionals is dedicated to your health."
     },
     "card3": {
-      "title": "asdf",
-      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+      "title": "At any moment",
+      "descr": "Receive prompt medical attention anytime with our 24/7 emergency services."
     },
     "card4": {
-      "title": "asdf",
-      "descr": "asdfasdf asdfasdf asdfas dfasdfa sdfa sdfas"
+      "title": "With a history",
+      "descr": "Trusted through generations, our clinic has a long-standing history of providing exceptional medical care."
     }
   },
+
   "Footer": {
     "policy": "policy"
   },
   "Policy": {
     "title": "asdf"
   },
-  "faq": {
-    
-  }
+  "faq": {}
 }

@@ -29,17 +29,11 @@ const LanguageSwitcher = () => {
         <Image src={IconArrow} alt="Arrow Icon" width={20} height={20} />
       </div>
       {isOpen && (
-        <div className="absolute mt-[-3px] rounded-full bg-white shadow-lg">
-          <div
-            className="p-2 text-xl "
-            onClick={() => changeLanguage("en")}
-          >
+        <div className="absolute mt-[-1px] rounded-full bg-white shadow-lg z-10 cursor-pointer">
+          <div className="p-2 text-xl " onClick={() => changeLanguage("en")}>
             EN
           </div>
-          <div
-            className="p-2 text-xl "
-            onClick={() => changeLanguage("ru")}
-          >
+          <div className="p-2 text-xl " onClick={() => changeLanguage("ru")}>
             RU
           </div>
         </div>

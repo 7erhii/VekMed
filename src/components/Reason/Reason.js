@@ -5,10 +5,19 @@ import Image from "next/image";
 
 import mainLogo from "@/assets/icons/main-logo.svg";
 import { PiStethoscopeFill } from "react-icons/pi";
+import { MdOutlineMedicalInformation } from "react-icons/md";
+import { RiChatPrivateLine } from "react-icons/ri";
+import { TbClockCheck } from "react-icons/tb";
+import { CgNotes } from "react-icons/cg";
+
+
+
+
+
 
 const ReasonCardsData = [
   {
-    icon: PiStethoscopeFill,
+    icon: RiChatPrivateLine,
     title: "card1.title",
     descr: "card1.descr",
   },
@@ -18,12 +27,12 @@ const ReasonCardsData = [
     descr: "card2.descr",
   },
   {
-    icon: PiStethoscopeFill,
+    icon: TbClockCheck,
     title: "card3.title",
     descr: "card3.descr",
   },
   {
-    icon: PiStethoscopeFill,
+    icon: CgNotes,
     title: "card4.title",
     descr: "card4.descr",
   },
