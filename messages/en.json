@@ -54,6 +54,21 @@
       "text": "asdfa asdfasdf asdfasdfasdf asdfasdfasdfadsfads saf"
     }
   },
+  "CardsExtra": {
+    "card0": "Respiratory",
+    "card1": "Pain",
+    "card2": "Nutrition",
+    "card3": "Gastro",
+    "card4": "Vitamins",
+    "card5": "Cardiology",
+    "card6": "Psychotherapy",
+    "card7": "Check-up",
+    "card8": "Mental",
+    "card9": "Dietology",
+    "card10": "Temperature",
+    "card11": "Physiotherapy",
+    "card12": "Endocrinology"
+  },
   "Contacts": {
     "title": "Write to us in your favorite messanger or  > use contact form "
   },
