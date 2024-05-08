@@ -76,13 +76,13 @@
     "title": "Get In Touch With Your Future Partners!",
     "description": "Let's explore your project concept collaboratively. Get in touch with us to outline your objectives and explore how we can support you.",
     "inputName": {
-      "label": "Name or Company name",
-      "placeholder": "Enter name or company name"
+      "label": "Name",
+      "placeholder": "Enter your name"
     },
     "inputEmployees": {
-      "label": "Number of employees (optional)",
-      "placeholder": "Enter number",
-      "tooltip": "The number of employees is required if you choose a service for a company"
+      "label": "Second Name",
+      "placeholder": "Enter your second name",
+      "tooltip": "optional"
     },
     "inputEmail": {
       "label": "Email",

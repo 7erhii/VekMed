@@ -1,5 +1,7 @@
 .SliderContainer {
   padding: 1em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .Slide {
   position: relative;

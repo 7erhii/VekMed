@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   gap: 0.5em;
+  width: 3em;
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 
 .container h2 {
-  font-size: 3rem;
+  font-size: 1em;
   color: #89cff0;
   font-weight: 500;
 
