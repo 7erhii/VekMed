@@ -1,0 +1,240 @@
+{
+  "MainPage": {
+    "Heder": {
+      "": "",
+      "Title": "",
+      "Subtitle": "",
+      "Button": ""
+    },
+    "Hero": {
+      "Info": "We offer state support for our patients",
+      "About": {
+        "Title": "Clinic for body examination (check-up) and preventive medicine",
+        "Subtitle": "With us, you will learn about the real state of your health and we will also help you prevent the development of dangerous diseases through prevention.",
+        "Button": "Free Consultation"
+      }
+    },
+    "Reason": {
+      "Title": "Why will you recommend us to your loved ones?",
+      "Cards": [
+        {
+          "Type": "white",
+          "Title": "Individual approach",
+          "Description": ""
+        },
+        {
+          "Type": "clear",
+          "Title": "",
+          "Description": "We strive to meet the highest international standards by continuously studying European experience and adapting it to our realities"
+        },
+        {
+          "Type": "white",
+          "Title": "Prevention is the best treatment",
+          "Description": "The result of the checkup is a doctor's conclusion about the state of health and identified diseases, as well as recommendations for treatment and prevention."
+        },
+        {
+          "Type": "white",
+          "Title": "Modern methods and technologies",
+          "Description": "The result of the checkup is a doctor's conclusion about the state of health and identified diseases, as well as recommendations for treatment and prevention."
+        },
+        { "Type": "clear", "Title": "", "Description": "" },
+        {
+          "Type": "white",
+          "Title": "Education and support",
+          "Description": "The result of the checkup is a doctor's conclusion about the state of health and identified diseases, as well as recommendations for treatment and prevention."
+        },
+        { "Type": "clear", "Title": "", "Description": "" },
+        {
+          "Type": "white",
+          "Title": "Saving time and money",
+          "Description": "The result of the checkup is a doctor's conclusion about the state of health and identified diseases, as well as recommendations for treatment and prevention."
+        }
+      ]
+    },
+    "ActionCall": {
+      "Title": "Register for a free online consultation with our therapist right now!",
+      "Description": "We are always happy to help you in any situation",
+      "Extra": "With us, you will learn about the real state of your health and we will also help you prevent the development of dangerous diseases through prevention."
+    },
+    "Services": [
+      {
+        "Title": "Comprehensive Checkup at the clinic",
+        "Description": "Basic medical examination, recommended for individuals aged 18 to 50 years. It includes tests and diagnostics to detect the most likely diseases and assess your overall health condition.",
+        "Extra": "service",
+        "Price": "520 UAH"
+      },
+      {
+        "Title": "Selective Checkup at the clinic",
+        "Description": "Personalized examination that takes into account your heredity, lifestyle, and individual risks. Ideal for detailed detection of diseases and development of a prevention plan.",
+        "Extra": "service",
+        "Price": "520 UAH"
+      },
+      {
+        "Title": "Individual consultations with a doctor",
+        "Description": "Personal medical consultations that provide a thorough analysis of your health condition and suitable methods for treating chronic diseases such as hypertension, diabetes, lung diseases, and digestive system disorders.",
+        "Extra": "service",
+        "Price": "520 UAH"
+      },
+      {
+        "Title": "Medical use of cannabis",
+        "Description": "Diagnostics and selection of treatment using medical cannabis to alleviate symptoms of chronic pain, anxiety, and other conditions according to legislation.",
+        "Extra": "service",
+        "Price": "520 UAH"
+      }
+    ],
+    "Reviews": {
+      "Title": "What do our patients say about us?"
+    },
+    "Facts": {
+      "Title": "Just facts in numbers about us and nothing extra",
+      "Cards": [
+        {
+          "Type": "white",
+          "Title": "314+",
+          "Description": "happy patients - our pride!"
+        },
+        {
+          "Type": "clear",
+          "Title": "",
+          "Description": "We strive to meet the highest international standards by continuously studying European experience and adapting it to our realities"
+        },
+        {
+          "Type": "white",
+          "Title": "5+",
+          "Description": "years in the comprehensive medicine market"
+        },
+        {
+          "Type": "tabet",
+          "Title": "",
+          "Description": ""
+        },
+        { "Type": "clear", "Title": "", "Description": "" },
+        {
+          "Type": "xray",
+          "Title": "",
+          "Description": ""
+        },
+        { "Type": "clear", "Title": "", "Description": "" },
+        {
+          "Type": "white",
+          "Title": "9+",
+          "Description": "Average years of experience for each doctor"
+        }
+      ]
+    },
+    "FAQ": {
+      "Title": "Answers to frequent questions from our patients",
+      "Items": [
+        {
+          "Title": "Official state support for patients",
+          "Description": "Lorem Ipsum is filler text used in printing and design. Lorem Ipsum has been the industry's standard dummy text ever since the 16th century, when an unknown printer took a typeface gallery and scrambled it to make a type specimen book. It has not only survived five centuries, but also made the leap into electronic typesetting, remaining essentially unchanged."
+        },
+        {
+          "Title": "Official state support for patients",
+          "Description": ""
+        },
+        {
+          "Title": "Official state support for patients",
+          "Description": ""
+        },
+        {
+          "Title": "Official state support for patients",
+          "Description": ""
+        },
+        {
+          "Title": "Official state support for patients",
+          "Description": ""
+        }
+      ]
+    },
+    "Footer": {
+      "Items": [
+        [
+          {
+            "type": "lg",
+            "content": "Clinic",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "Ukraine - Kyiv Holosiivskyi 145, office 45",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "livemed@gmail.com",
+            "link": ""
+          },
+          {
+            "type": "lg",
+            "content": "+380 66 627 02 22",
+            "link": ""
+          }
+        ],
+        [
+          {
+            "type": "lg",
+            "content": "Navigation",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "Services",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "Patient video reviews",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "About us",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "FAQ",
+            "link": ""
+          },
+          {
+            "type": "md",
+            "content": "Contacts",
+            "link": ""
+          }
+        ],
+        [
+          {
+            "type": "lg",
+            "content": "Write to us",
+            "link": ""
+          },
+          [
+            {
+              "type": "viber",
+              "content": "",
+              "link": ""
+            },
+            {
+              "type": "telegram",
+              "content": "",
+              "link": ""
+            },
+            {
+              "type": "inst",
+              "content": "",
+              "link": ""
+            }
+          ]
+        ]
+      ]
+    }
+  },
+  "Buttons": {
+    "Free": "Free Consultation",
+    "Order": "Order a consultation",
+    "More": "More",
+    "MoreServices": "More services",
+    "Register": "Registration"
+  }
+}

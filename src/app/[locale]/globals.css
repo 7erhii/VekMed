@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* style reset */
+
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  cursor: default;
+}
+
+.main-btn {
+  /* padding: 1.62em 2em; */
+  border-radius: 200px;
+  text-wrap: nowrap;
+}
+
+/* COLORS */
+
+@layer base {
+  :root {
+    --main-page: #F4F4F8;
+    --white: #FFF;
+    --dark: #182233;
+    --second-color: #FF7272;
+    --extra: #5AC5BF;
+    --main-text: #182233;
+    --second-text: rgba(24, 34, 51, 0.65);
+    --third-text: rgba(24, 34, 51, 0.65);
+    --bold-text: #1D1D33;
+    --text-white-pass: rgba(255, 255, 255, 0.65);
+    --primary-color: #4a5568; /* Slate Gray */
+
+  }
+}
