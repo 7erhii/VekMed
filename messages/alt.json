@@ -1,8 +1,7 @@
 {
   "MainPage": {
-    "Heder": {
-      "": "",
-      "Title": "",
+    "Header": {
+      "Title": "HELLOTITLE3",
       "Subtitle": "",
       "Button": ""
     },

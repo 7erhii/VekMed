@@ -1,0 +1,13 @@
+.CustomTitle {
+  width: 100%;
+  text-align: left;
+  padding-left: 20.6em;
+  max-width: 67%;
+}
+
+.CustomTitle > h3 {
+    font-size: 3em;
+    color: var(--main-text);
+    font-weight: 600;
+    line-height: 100%;
+}

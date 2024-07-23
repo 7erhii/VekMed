@@ -1,0 +1,74 @@
+.SectionWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+.HeroBlock {
+  position: relative;
+  width: 100%;
+  max-width: 1940px;
+}
+
+.GovBlock {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 2.5em;
+  left: 2.5em;
+  border-radius: 16px;
+  background: var(--white);
+  padding: 1.8em 1.25em;
+  max-width: 13em;
+}
+
+.GovLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5em;
+  font-size: 1em;
+  color: var(--main-text);
+}
+
+.ExtraBlock {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  bottom: 4em;
+  right: 4.25em;
+  border-radius: 16px;
+  background: var(--white);
+  padding: 2em 2.5em;
+  max-width: 32.5em;
+
+  gap: 1em;
+}
+
+.ExtraBlock > h1 {
+  font-size: 2.25em;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 110%;
+  color: var(--main-text);
+  letter-spacing: -0.3px;
+}
+.ExtraBlock > h2 {
+  font-size: 1em;
+  /* text-transform: capitalize; */
+  font-weight: 100;
+  line-height: 130%;
+  color: var(--main-text-half);
+  letter-spacing: -0.3px;
+}
+
+
+.ButtonWrapper {
+  max-width: 80%;
+}

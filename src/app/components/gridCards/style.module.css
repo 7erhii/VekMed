@@ -1,0 +1,88 @@
+.Cards {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+  width: 100%;
+  max-width: 24%;
+  height: 18.1em;
+  background: var(--white);
+  border-radius: 16px;
+  gap: 1em;
+}
+
+.Card > h5 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.CardNumber {
+  position: absolute;
+  color: var(--second-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+  top: 1em;
+  left: 1em;
+  width: 1em;
+  height: 1em;
+}
+
+.CardDot {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: var(--main-text);
+}
+
+.CardClear {
+  width: 100%;
+  max-width: 24%;
+  height: 18.1em;
+  border-radius: 16px;
+  background: #ffffff00;
+  position: relative;
+}
+
+.bgCover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

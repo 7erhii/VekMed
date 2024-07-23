@@ -1,0 +1,64 @@
+.SectionWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+.HeaderContent {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.375em 0.81em;
+  justify-content: space-between;
+}
+
+.HeaderBlockLogo {
+  width: 100%;
+  max-width: 23em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.HeaderBlockActions {
+  /* width: 100%; */
+  /* max-width: 23em; */
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+
+.HeaderLogo {
+  display: block;
+  max-width: 9.1em;
+}
+
+.HeaderSocial {
+  display: flex;
+  align-items: center;
+  gap: 0.375em;
+}
+
+.RegisterBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  background: #5ac5bf;
+  border-radius: 10px;
+  padding: 0.625em 1.375em;
+}
+
+.RegisterBtn img,
+.RegisterBtn svg {
+  width: 1.375em;
+  height: 1.375em;
+}
+
+.RegisterBtn > p {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 300;
+}

@@ -1,0 +1,55 @@
+.CallNowWrapper {
+  display: flex;
+  width: 100%;
+  gap: 1em;
+}
+
+.CallNowImage {
+  width: 100%;
+  max-width: 50%;
+  border-radius: 16px;
+}
+
+.CallNowText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 50%;
+  border-radius: 16px;
+  padding: 2.1em 2em;
+  background: var(--white);
+  border-radius: 16px;
+}
+.CallNowTextTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.CallNowTextTitle > h2 {
+  font-size: 2.5em;
+  line-height: 120%;
+  font-weight: 600;
+  color: var(--main-text);
+}
+.CallNowTextTitle > p {
+  font-size: 1em;
+  line-height: 120%;
+  font-weight: 300;
+  color: var(--main-text-half);
+}
+
+.CallNowTextAction > p {
+  font-size: 1em;
+  line-height: 120%;
+  font-weight: 300;
+  color: var(--main-text-half);
+}
+.CallNowTextAction {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+  border-radius: 16px;
+}

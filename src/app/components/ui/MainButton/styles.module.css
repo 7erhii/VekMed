@@ -1,0 +1,27 @@
+.OrangeBnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  width: fit-content;
+  background: var(--second-color);
+  color: var(--white);
+  text-transform: capitalize;
+  text-wrap: nowrap;
+  gap: 1em;
+  width: 100%;
+}
+.buttonSizeMedium {
+  padding: 0.82em 3em;
+  border-radius: 100px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.buttonSizeLarge {
+  padding: 0.82em 3em;
+  border-radius: 100px;
+  font-size: 1em;
+  font-weight: 400;
+}
