@@ -1,0 +1,110 @@
+.cardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 1.5em 2em;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.card:hover {
+  border: 1px solid rgb(255, 239, 239);
+
+}
+
+.card.activeCard {
+  border: 1px solid rgb(255, 239, 239);
+
+}
+
+.cardTitle {
+  position: relative;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.cardTitleText {
+font-size: 1.5em;
+font-weight: 500;
+color: var(--main-text);
+}
+
+
+.cardIndex {
+  margin-right: 17em;
+  color: var(--second-color);
+}
+
+.cardTitle h3 {
+  margin: 0;
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 0.8em;
+  right: 0;
+  
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.iconWrapper .horizontalLine,
+.iconWrapper .verticalLine {
+  position: absolute;
+  background-color: black;
+  transition: background-color 0.24s ease-in-out;
+}
+
+.horizontalLine {
+  width: 1.5em;
+  height: 0.15em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.verticalLine {
+  height: 1.5em;
+  width: 0.15em;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.iconClose {
+  transform: rotate(0deg);
+}
+.iconOpen {
+  transform: rotate(45deg);
+}
+
+.cardContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.cardContent.open {
+  max-height: 200px; 
+}
+
+.description {
+  padding-top: 1em;
+  transition: padding-top 0.5s ease;
+  padding-left: 18.5em;
+
+}
+.description > p {
+  color: var(--main-text-half);
+
+}

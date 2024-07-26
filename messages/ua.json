@@ -137,103 +137,47 @@
         },
         {
           "Title": "Офіційна державна підтримка для пацієнтів",
-          "Description": ""
+          "Description": "Lorem Ipsum - це текст-, що використовується в друкарстві та дизайні. Lore"
         },
         {
           "Title": "Офіційна державна підтримка для пацієнтів",
-          "Description": ""
+          "Description": "Lorem Ipsum - це текст-, що використовується в друкарстві та дизайні. Lore"
         },
         {
           "Title": "Офіційна державна підтримка для пацієнтів",
-          "Description": ""
+          "Description": "Lorem Ipsum - це текст-, що використовується в друкарстві та дизайні. Lore"
         },
         {
           "Title": "Офіційна державна підтримка для пацієнтів",
-          "Description": ""
+          "Description": "Lorem Ipsum - це текст-, що використовується в друкарстві та дизайні. Lore"
         }
       ]
     },
     "Footer": {
-      "Items": [
-        [
-          {
-            "type": "lg",
-            "content": "Клініка",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "Украіна - Київ Голосієво 145, офіс 45",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "livemed@gmail.com",
-            "link": ""
-          },
-          {
-            "type": "lg",
-            "content": "+380 66 627 02 22",
-            "link": ""
-          }
-        ],
-        [
-          {
-            "type": "lg",
-            "content": "Навігація",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "Послуги",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "Відео-відугки пацієнтів",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "Про нас",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "Питання відповідь",
-            "link": ""
-          },
-          {
-            "type": "md",
-            "content": "Контакти",
-            "link": ""
-          }
-        ],
-        [
-          {
-            "type": "lg",
-            "content": "Напишіть нам",
-            "link": ""
-          },
-          [
-            {
-              "type": "viber",
-              "content": "",
-              "link": ""
-            },
-            {
-              "type": "telegram",
-              "content": "",
-              "link": ""
-            },
-            {
-              "type": "inst",
-              "content": "",
-              "link": ""
-            }
-          ]
+      "Details": {
+        "Title": "Клініка",
+        "Address": "Украіна - Київ Голосієво 145, офіс 45",
+        "Email": "livemed@gmail.com",
+        "Phone": "+380 66 627 02 22"
+      },
+      "Nav": {
+        "Title": "Навігація",
+        "Items": [
+          { "Text": "Послуги", "Link": "#" },
+          { "Text": "Відео-відугки пацієнтів", "Link": "#" },
+          { "Text": "Про нас", "Link": "#" },
+          { "Text": "Питання відповідь", "Link": "#" },
+          { "Text": "Контакти", "Link": "#" }
         ]
-      ]
+      },
+      "Contacts" : {
+        "Title" : "Напишіть нам",
+        "Links" : [
+          {"Inst" : "#"},
+          {"Telegram" : "#"},
+          {"Viber" : "#"}
+        ]
+      }
     }
   },
   "Buttons": {

@@ -11,6 +11,40 @@
   gap: 1em;
   width: 100%;
 }
+.WhiteBnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  width: fit-content;
+  background: var(--white);
+  color: var(--second-color);
+  text-transform: capitalize;
+  text-wrap: nowrap;
+  gap: 1em;
+  width: 100%;
+  border: 2px solid var(--second-color);
+}
+.whiteBorderless {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  width: fit-content;
+  background: var(--white);
+  color: var(--second-color);
+  text-transform: capitalize;
+  text-wrap: nowrap;
+  gap: 1em;
+  width: 100%;
+  /* border: 2px solid var(--second-color); */
+}
+
+.buttonIcon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
 .buttonSizeMedium {
   padding: 0.82em 3em;
   border-radius: 100px;

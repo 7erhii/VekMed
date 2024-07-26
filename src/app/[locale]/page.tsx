@@ -10,7 +10,7 @@ import { BlockWrapper } from "../components/wrappers/page";
 import CustomTitle from "../components/ui/customTitle/page";
 import GridCards from "../components/gridCards/page";
 import CallNow from "../components/callNow/page";
-import Services from "../components/Services/page";
+import Services from "../components/services/page";
 
 // Images
 import tabetImage from "@/src/assets/images/tablet-image.png";
@@ -21,6 +21,10 @@ import Service1 from "@/src/assets/images/service1-image.png";
 import Service2 from "@/src/assets/images/service1-image.png";
 import Service3 from "@/src/assets/images/service1-image.png";
 import Service4 from "@/src/assets/images/service1-image.png";
+import AccordionCardHolder from "../components/accordionCardHolder/page";
+import NewsSection from "../components/newsSection/page";
+import Footer from "../components/footer/page";
+// import CustomAccordion from "../components/customAccordion/page";
 
 const locales = ["en", "ua", "alt"];
 
@@ -35,6 +39,8 @@ export default function HomePage({ params: { locale } }: any) {
 
   const reasonDataCardsObj = t.raw("MainPage.Reason.Cards");
   const serviceCardsData = t.raw("MainPage.Services.Cards");
+
+  const AccordionCardsData = t.raw("MainPage.FAQ.Items");
 
   interface ServiceCard {
     Title: string;
@@ -61,11 +67,11 @@ export default function HomePage({ params: { locale } }: any) {
     return { ...data, displayIndex: null };
   });
 
-  unstable_setRequestLocale(locale);
+  // unstable_setRequestLocale(locale);
 
   return (
     <div>
-      {/* <Header />
+      <Header />
       <Hero />
       <BlockWrapper>
         <CustomTitle text={t("MainPage.Reason.Title")} />
@@ -73,10 +79,28 @@ export default function HomePage({ params: { locale } }: any) {
       </BlockWrapper>
       <BlockWrapper>
         <CallNow />
-      </BlockWrapper> */}
+      </BlockWrapper>
       <BlockWrapper>
         <CustomTitle text={t("MainPage.Services.Title")} />
         <Services serviceCardMainData={serviceCardsObj} />
+      </BlockWrapper>
+      <BlockWrapper>
+        <CustomTitle text={t("MainPage.Reviews.Title")} />
+        {/* <Services serviceCardMainData={serviceCardsObj} /> */}
+      </BlockWrapper>
+      <BlockWrapper>
+        <CustomTitle text={t("MainPage.FAQ.Title")} />
+        <AccordionCardHolder data={AccordionCardsData} />
+      </BlockWrapper>
+
+      {/*  */}
+      {/* <BlockWrapper>
+        <NewsSection />
+      </BlockWrapper> */}
+      {/*  */}
+
+      <BlockWrapper>
+        <Footer locale={locale} />
       </BlockWrapper>
     </div>
   );

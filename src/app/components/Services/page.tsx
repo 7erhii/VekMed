@@ -1,7 +1,12 @@
+// Core
 import { useTranslations } from "next-intl";
 import React from "react";
-import ServiceCard from "../ServiceCard/page";
+import ServiceCard from "../serviceCard/page";
 import { StaticImageData } from "next/image";
+
+// Styles
+import styles from "./style.module.css";
+import MainButton from "../ui/MainButton/page";
 
 interface ServiceCardData {
   Title: string;
@@ -20,10 +25,11 @@ const Services = ({ serviceCardMainData }: ServicesProps) => {
   const t = useTranslations();
 
   return (
-    <div>
+    <div className={styles.ServicesCards}>
       {serviceCardMainData.map((card, index) => (
         <ServiceCard
           key={index}
+          index={index}
           title={card.Title}
           description={card.Description}
           extra={card.Extra}
@@ -32,6 +38,12 @@ const Services = ({ serviceCardMainData }: ServicesProps) => {
           image={card.Image}
         />
       ))}
+      <MainButton
+        text={t("Buttons.MoreServices.Text")}
+        link={"//"}
+        color="whiteBorderless"
+        type="lg"
+      />
     </div>
   );
 };
