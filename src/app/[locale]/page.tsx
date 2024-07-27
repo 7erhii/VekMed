@@ -98,6 +98,9 @@ export default function HomePage({ params: { locale } }: any) {
         <NewsSection />
       </BlockWrapper> */}
       {/*  */}
+      <BlockWrapper>
+        <CallNow />
+      </BlockWrapper>
 
       <BlockWrapper>
         <Footer locale={locale} />

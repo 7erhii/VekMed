@@ -42,10 +42,13 @@ color: var(--main-text);
 .cardIndex {
   margin-right: 17em;
   color: var(--second-color);
+  white-space: nowrap;
+  font-weight: 500;
 }
 
 .cardTitle h3 {
   margin: 0;
+  max-width: 70%;
 }
 
 .iconWrapper {
