@@ -36,7 +36,7 @@ export default function Footer({ locale }: FooterProps) {
           </Link>{" "}
         </div>
         <div className={styles.FooterNavigation}>
-          {footerNavObj.map((item, index) => (
+          {footerNavObj.map((item : any, index : any) => (
             <div key={index} className={styles.FooterNavigationItem}>
               <p>{item.Text}</p>
             </div>

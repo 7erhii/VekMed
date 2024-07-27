@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./style.module.css";
-import Header from "../../components/header/page";
-import { BlockWrapper } from "../../components/wrappers/page";
-import Footer from "../../components/footer/page";
+import Header from "../../../components/header/page";
+import { BlockWrapper } from "../../../components/wrappers/page";
+import Footer from "../../../components/footer/page";
 
 
 export default function Rights({ params: { locale } }: any) {
@@ -65,7 +65,7 @@ export default function Rights({ params: { locale } }: any) {
         <h2 className={styles.heading2}>Контакти</h2>
         <p className={styles.paragraph}>
           Якщо у вас є запитання стосовно авторських прав або використання
-          матеріалів сайту, будь ласка, зв'яжіться з нами за адресою
+          матеріалів сайту, будь ласка, звяжіться з нами за адресою
           vekmedcare@gmail.com або за телефоном +380988081828.
         </p>
       </div>

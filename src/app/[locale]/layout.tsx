@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Manrope } from "next/font/google";
 import "./globals.css";
-import FontResizer from "../components/FontResizer";
+import FontResizer from "../../components/FontResizer";
 
 const manrope = Manrope({
   subsets: ["latin"],

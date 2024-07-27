@@ -4,13 +4,13 @@ import Image, { StaticImageData } from "next/image";
 import { unstable_setRequestLocale } from "next-intl/server";
 
 // Components
-import Header from "../components/header/page";
-import Hero from "../components/hero/page";
-import { BlockWrapper } from "../components/wrappers/page";
-import CustomTitle from "../components/ui/customTitle/page";
-import GridCards from "../components/gridCards/page";
-import CallNow from "../components/callNow/page";
-import Services from "../components/services/page";
+import Header from "../../components/header/page";
+import Hero from "../../components/hero/page";
+import { BlockWrapper } from "../../components/wrappers/page";
+import CustomTitle from "../../components/ui/customTitle/page";
+import GridCards from "../../components/gridCards/page";
+import CallNow from "../../components/callNow/page";
+import Services from "../../components/services/page";
 
 // Images
 import tabetImage from "@/src/assets/images/tablet-image.png";
@@ -21,9 +21,9 @@ import Service1 from "@/src/assets/images/service1-image.png";
 import Service2 from "@/src/assets/images/service1-image.png";
 import Service3 from "@/src/assets/images/service1-image.png";
 import Service4 from "@/src/assets/images/service1-image.png";
-import AccordionCardHolder from "../components/accordionCardHolder/page";
-import NewsSection from "../components/newsSection/page";
-import Footer from "../components/footer/page";
+import AccordionCardHolder from "../../components/accordionCardHolder/page";
+import NewsSection from "../../components/newsSection/page";
+import Footer from "../../components/footer/page";
 // import CustomAccordion from "../components/customAccordion/page";
 
 const locales = ["en", "ua", "alt"];
