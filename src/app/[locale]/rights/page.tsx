@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./style.module.css";
-import Header from "../../../components/header/page";
-import { BlockWrapper } from "../../../components/wrappers/page";
-import Footer from "../../../components/footer/page";
+import Header from "../../../components/header";
+import { BlockWrapper } from "../../../components/wrappers";
+import Footer from "../../../components/footer";
 
 
 export default function Rights({ params: { locale } }: any) {

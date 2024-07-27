@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import React from "react";
 import Image from "next/image";
 import styles from "./style.module.css";
@@ -7,7 +7,7 @@ import Link from "next/link";
 import HeroImage from "@/src/assets/images/hero-image.png";
 import IconGov from "@/src/assets/icons/vector-ua.svg";
 import { useTranslations } from "next-intl";
-import MainButton from "../ui/MainButton/page";
+import MainButton from "../ui/MainButton";
 
 export default function Hero() {
   const t = useTranslations("MainPage");

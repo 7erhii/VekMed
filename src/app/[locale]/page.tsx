@@ -1,73 +1,48 @@
-// Core
 import { useTranslations } from "next-intl";
-import Image, { StaticImageData } from "next/image";
 import { unstable_setRequestLocale } from "next-intl/server";
 
 // Components
-import Header from "../../components/header/page";
-import Hero from "../../components/hero/page";
-import { BlockWrapper } from "../../components/wrappers/page";
-import CustomTitle from "../../components/ui/customTitle/page";
-import GridCards from "../../components/gridCards/page";
-import CallNow from "../../components/callNow/page";
-import Services from "../../components/services/page";
+import Header from "../../components/header";
+import Hero from "../../components/hero";
+import { BlockWrapper } from "../../components/wrappers";
+import CustomTitle from "../../components/ui/customTitle";
+import GridCards from "../../components/gridCards";
+import CallNow from "../../components/callNow";
+import Services from "../../components/services";
+import AccordionCardHolder from "../../components/accordionCardHolder";
+import Footer from "../../components/footer";
 
 // Images
-import tabetImage from "@/src/assets/images/tablet-image.png";
-import xrayImage from "@/src/assets/images/xray-image.png";
-import hedoBg from "@/src/assets/images/hero-image.png";
-
 import Service1 from "@/src/assets/images/service1-image.png";
 import Service2 from "@/src/assets/images/service1-image.png";
 import Service3 from "@/src/assets/images/service1-image.png";
 import Service4 from "@/src/assets/images/service1-image.png";
-import AccordionCardHolder from "../../components/accordionCardHolder/page";
-import NewsSection from "../../components/newsSection/page";
-import Footer from "../../components/footer/page";
-// import CustomAccordion from "../components/customAccordion/page";
 
 const locales = ["en", "ua", "alt"];
 
 const serviceImages = [Service1, Service2, Service3, Service4];
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ params: { locale } }));
+  return locales.map((locale) => ({ locale }));
 }
 
 export default function HomePage({ params: { locale } }: any) {
+  unstable_setRequestLocale(locale);
   const t = useTranslations();
 
   const reasonDataCardsObj = t.raw("MainPage.Reason.Cards");
   const serviceCardsData = t.raw("MainPage.Services.Cards");
-
   const AccordionCardsData = t.raw("MainPage.FAQ.Items");
 
-  interface ServiceCard {
-    Title: string;
-    Description: string;
-    Extra: string;
-    Price: string;
-    Link: string;
-    Image?: StaticImageData | string;
-  }
+  const serviceCardsObj = serviceCardsData.map((card : any, index : any) => ({
+    ...card,
+    Image: serviceImages[index],
+  }));
 
-  const serviceCardsObj: ServiceCard[] = serviceCardsData.map(
-    (card: ServiceCard, index: number): ServiceCard => ({
-      ...card,
-      Image: serviceImages[index],
-    })
-  );
-
-  let count = 0;
-  const reasonDataCards = reasonDataCardsObj.map((data: any) => {
-    if (data.Type === "white" || data.Type === "count") {
-      count += 1;
-      return { ...data, displayIndex: count };
-    }
-    return { ...data, displayIndex: null };
-  });
-
-  // unstable_setRequestLocale(locale);
+  const reasonDataCards = reasonDataCardsObj.map((data : any, index : any) => ({
+    ...data,
+    displayIndex: data.Type === "white" || data.Type === "count" ? index + 1 : null,
+  }));
 
   return (
     <div>
@@ -86,22 +61,14 @@ export default function HomePage({ params: { locale } }: any) {
       </BlockWrapper>
       <BlockWrapper>
         <CustomTitle text={t("MainPage.Reviews.Title")} />
-        {/* <Services serviceCardMainData={serviceCardsObj} /> */}
       </BlockWrapper>
       <BlockWrapper>
         <CustomTitle text={t("MainPage.FAQ.Title")} />
         <AccordionCardHolder data={AccordionCardsData} />
       </BlockWrapper>
-
-      {/*  */}
-      {/* <BlockWrapper>
-        <NewsSection />
-      </BlockWrapper> */}
-      {/*  */}
       <BlockWrapper>
         <CallNow />
       </BlockWrapper>
-
       <BlockWrapper>
         <Footer locale={locale} />
       </BlockWrapper>

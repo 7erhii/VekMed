@@ -36,7 +36,7 @@ export default function Footer({ locale }: FooterProps) {
           </Link>{" "}
         </div>
         <div className={styles.FooterNavigation}>
-          {footerNavObj.map((item : any, index : any) => (
+          {footerNavObj.map((item: any, index: any) => (
             <div key={index} className={styles.FooterNavigationItem}>
               <p>{item.Text}</p>
             </div>
@@ -46,20 +46,31 @@ export default function Footer({ locale }: FooterProps) {
         <div className={styles.FooterContacts}>
           <h2>{t("MainPage.Footer.Contacts.Title")}</h2>
           <div className={styles.FooterContactsLinks}>
-            <Link href={t("MainPage.Footer.Contacts.Links.Inst")}>
+            <Link
+              href={t("MainPage.Footer.Contacts.Links.Inst")}
+              target="_blank"
+            >
               <FaInstagram />
             </Link>
-            <Link href={t("MainPage.Footer.Contacts.Links.Telegram")}>
+            <Link
+              href={t("MainPage.Footer.Contacts.Links.Telegram")}
+              target="_blank"
+            >
               <PiTelegramLogo />
             </Link>
-            <Link href={t("MainPage.Footer.Contacts.Links.Viber")}>
+            <Link
+              href={t("MainPage.Footer.Contacts.Links.Viber")}
+              target="_blank"
+            >
               <FaViber />
             </Link>
           </div>
         </div>
       </div>
       <div className={styles.FooterColophon}>
-        <Link href={`/${locale}/rights`}><span>2019 - 2024. All rights reserved by VEKMED</span></Link>
+        <Link href={`/${locale}/rights`}>
+          <span>2019 - 2024. All rights reserved by VEKMED</span>
+        </Link>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import styles from "./style.module.css";
 // Impges
 import callNowImage from "@/src/assets/images/callNow-image.png";
 import Image from "next/image";
-import MainButton from "../ui/MainButton/page";
+import MainButton from "../ui/MainButton";
 import { useTranslations } from "next-intl";
 
 export default function CallNow() {

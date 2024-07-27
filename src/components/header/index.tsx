@@ -4,9 +4,9 @@ import styles from "./style.module.css";
 import MainLogo from "@/src/assets/icons/logo-main.svg";
 import Link from "next/link";
 import Image from "next/image";
-import LanguageSwitcher from "../ui/languageSwitcher/page";
+import LanguageSwitcher from "../ui/languageSwitcher";
 import { useParams } from "next/navigation";
-import SocialLink from "../socialLink/page";
+import SocialLink from "../socialLink";
 
 import TelegramIcon from "@/src/assets/icons/social-telegram.svg";
 import IconUser from "@/src/assets/icons/icon-user.svg";
@@ -57,7 +57,7 @@ export default function Header() {
           </div>
             <Link href="/" className={styles.RegisterBtn}>
               <Image src={IconUser} alt="user icon" />
-              <p>{t("Buttons.Register")}</p>
+              <p>{t("Buttons.Register.Text")}</p>
             </Link>
         </div>
       </header>

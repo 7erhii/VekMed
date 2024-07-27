@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 import { useTranslations } from "next-intl";
 
 import styles from "./style.module.css";
-import MainButton from "../ui/MainButton/page";
+import MainButton from "../ui/MainButton";
 
 interface ServiceCardProps {
   index: number;

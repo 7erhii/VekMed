@@ -1,12 +1,12 @@
 // Core
 import { useTranslations } from "next-intl";
 import React from "react";
-import ServiceCard from "../serviceCard/page";
+import ServiceCard from "../serviceCard";
 import { StaticImageData } from "next/image";
 
 // Styles
 import styles from "./style.module.css";
-import MainButton from "../ui/MainButton/page";
+import MainButton from "../ui/MainButton";
 
 interface ServiceCardData {
   Title: string;

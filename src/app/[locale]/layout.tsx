@@ -9,11 +9,17 @@ const manrope = Manrope({
   weight: ["400", "500", "600", "700"],
 });
 
-export default async function LocaleLayout({ children, params: { locale } } : any) {
+export default async function LocaleLayout({
+  children,
+  params: { locale },
+}: any) {
   const messages = await getMessages(locale);
 
   return (
     <html lang={locale}>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className={manrope.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div style={{ maxWidth: "1936px", width: "100%", margin: "0 auto" }}>

@@ -176,7 +176,11 @@
       },
       "Contacts": {
         "Title": "Напишіть нам",
-        "Links": [{ "Inst": "#" }, { "Telegram": "#" }, { "Viber": "#" }]
+        "Links": {
+          "Inst": "https://instagram.com/yourprofile",
+          "Telegram": "https://t.me/yourprofile",
+          "Viber": "viber://chat?number=yourvibernumber"
+        }
       }
     }
   },
