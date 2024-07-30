@@ -55,10 +55,10 @@ export default function Header() {
               alt="Telegram"
             />
           </div>
-            {/* <Link href="/" className={styles.RegisterBtn}>
+            <Link href="/" className={styles.RegisterBtn}>
               <Image src={IconUser} alt="user icon" />
               <p>{t("Buttons.Register.Text")}</p>
-            </Link> */}
+            </Link>
         </div>
       </header>
     </div>
