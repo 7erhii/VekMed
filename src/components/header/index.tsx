@@ -59,8 +59,6 @@ export default function Header() {
               <Image src={IconUser} alt="user icon" />
               <p>{t("Buttons.Register.Text")}</p>
             </Link> */}
-
-            
         </div>
       </header>
     </div>
