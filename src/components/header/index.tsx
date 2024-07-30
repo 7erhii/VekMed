@@ -38,7 +38,7 @@ export default function Header() {
         </div>
 
         <div className={styles.HeaderBlockActions}>
-          <div className={styles.HeaderSocial}>
+          {/* <div className={styles.HeaderSocial}>
             <SocialLink
               href="https://t.me/vekmed"
               src={TelegramIcon}
@@ -54,7 +54,7 @@ export default function Header() {
               src={TelegramIcon}
               alt="Telegram"
             />
-          </div>
+          </div> */}
             {/* <Link href="/" className={styles.RegisterBtn}>
               <Image src={IconUser} alt="user icon" />
               <p>{t("Buttons.Register.Text")}</p>
