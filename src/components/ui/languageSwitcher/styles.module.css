@@ -1,0 +1,52 @@
+.languageSwitcher {
+  position: relative;
+}
+
+.switcherHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+.switcherHeader > span {
+  cursor: pointer;
+}
+.switcherHeader:hover {
+  background-color: #5ac5bf;
+  color: #fff;
+}
+.localeText {
+  text-transform: uppercase;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0.25rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  border-radius: 8px;
+}
+
+.dropdownItem {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.dropdownItem:hover {
+  background-color: #5ac5bf;
+  color: #fff;
+}

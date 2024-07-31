@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import styles from "./styles.module.css";
 
 const LanguageSwitcher = ({ locale }: { locale: string }) => {
   const router = useRouter();
@@ -14,26 +15,41 @@ const LanguageSwitcher = ({ locale }: { locale: string }) => {
 
   return (
     <div
-      className="language-switcher relative"
+      className={styles.languageSwitcher}
       onMouseLeave={() => setIsOpen(false)}
     >
       <div
-        className="flex flex-row items-center cursor-pointer"
+        className={styles.switcherHeader}
         onMouseEnter={() => setIsOpen(true)}
       >
-        <span className="uppercase">{locale}</span>
+        <span className={styles.localeText}>{locale}</span>
       </div>
       {isOpen && (
-        <div className="absolute mt-0 rounded-md bg-white shadow-lg">
-          <div className="p-2" onClick={() => changeLanguage("ua")}>
-            UA
-          </div>
-          <div className="p-2" onClick={() => changeLanguage("en")}>
-            EN
-          </div>
-          <div className="p-2" onClick={() => changeLanguage("ru")}>
-            RU
-          </div>
+        <div className={styles.dropdown}>
+          {locale !== "ua" && (
+            <div
+              className={styles.dropdownItem}
+              onClick={() => changeLanguage("ua")}
+            >
+              UA
+            </div>
+          )}
+          {locale !== "en" && (
+            <div
+              className={styles.dropdownItem}
+              onClick={() => changeLanguage("en")}
+            >
+              EN
+            </div>
+          )}
+          {locale !== "ru" && (
+            <div
+              className={styles.dropdownItem}
+              onClick={() => changeLanguage("ru")}
+            >
+              RU
+            </div>
+          )}
         </div>
       )}
     </div>
