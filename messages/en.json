@@ -1,4 +1,26 @@
 {
+  "Buttons": {
+    "Free": {
+      "Text": "Бесплатная консультация",
+      "Link": "/"
+    },
+    "Order": {
+      "Text": "Заказать консультацию",
+      "Link": "/"
+    },
+    "More": {
+      "Text": "Больше",
+      "Link": "/"
+    },
+    "MoreServices": {
+      "Text": "Больше услуг",
+      "Link": "/"
+    },
+    "Register": {
+      "Text": "Регистрация",
+      "Link": "/"
+    }
+  },
   "MainPage": {
     "HeaderMeta": {
       "title": "Медичний центр векмед чекапи",
@@ -6,111 +28,119 @@
       "descriptionOg": "Чекап проведеня чекапів консультування с привентивної медицини, консультування канабіс"
     },
     "Hero": {
-      "Info": "У нас діє державна підтримка наших пацієнтів",
+      "Info": "We have state support for our patients",
       "About": {
-        "Title": "Клініка обстеження організму (чек-ап) та превентивної медицини",
-        "Subtitle": "У нас ви дізнайтесь про реальний стан вашого здоровя і також ми допоможемо вам запобігти розвитку небезпечних захворювань за допомогою профілактики.",
-        "Button": "Безкоштовна Консультація"
+        "Title": "Body examination clinic (check-up) and preventive medicine",
+        "Subtitle": "Here, you will learn about the real state of your health, and we will also help you prevent the development of dangerous diseases through prevention.",
+        "Button": "Free Consultation"
       }
     },
     "Reason": {
-      "Title": "Чому ми заслуговуємо вашої уваги?",
+      "Title": "Why do we deserve your attention?",
       "Cards": [
         {
           "Type": "white",
-          "Title": "Індивідуальний підхід",
-          "Description": "Результат чекапу - це заключення лікаря про стан здоров’я та виявлені захворювання, а також рекомендації по лікуванню та профілактиці."
+          "Title": "Individual Approach",
+          "Description": "We tailor treatment programs considering the personal characteristics and needs of each patient to ensure the most effective care."
+        },
+        {
+          "Type": "clear",
+          "Title": "International Standards",
+          "Description": "Our clinic adheres to high international standards in medical practice, utilizing cutting-edge technologies and methodologies."
+        },
+        {
+          "Type": "white",
+          "Title": "Prevention is the Best Cure",
+          "Description": "We implement comprehensive preventive programs to reduce the risk of developing diseases and maintain your health at a high level."
+        },
+        {
+          "Type": "white",
+          "Title": "Modern Methods and Technologies",
+          "Description": "Using innovative medical technologies and the latest scientific developments allows us to perform accurate diagnostics and effective treatment."
         },
         {
           "Type": "clear",
           "Title": "",
-          "Description": "Ми прагнемо відпвідати навищим міжнародним стандартам неперевервно вивчаючи євпропейский досвід та адаптуючи його до наших реалій"
+          "Description": ""
         },
         {
           "Type": "white",
-          "Title": "Профілактика - найкраще лікування",
-          "Description": "Результат чекапу - це заключення лікаря про стан здоров’я та виявлені захворювання, а також рекомендації по лікуванню та профілактиці."
+          "Title": "Education and Support",
+          "Description": "We provide educational materials and courses for patients to better understand their health and ways to maintain it."
+        },
+        {
+          "Type": "clear",
+          "Title": "",
+          "Description": ""
         },
         {
           "Type": "white",
-          "Title": "Сучасні методи та технології",
-          "Description": "Результат чекапу - це заключення лікаря про стан здоров’я та виявлені захворювання, а також рекомендації по лікуванню та профілактиці."
-        },
-        { "Type": "clear", "Title": "", "Description": "" },
-        {
-          "Type": "white",
-          "Title": "Освіта та підтримка",
-          "Description": "Результат чекапу - це заключення лікаря про стан здоров’я та виявлені захворювання, а також рекомендації по лікуванню та профілактиці."
-        },
-        { "Type": "clear", "Title": "", "Description": "" },
-        {
-          "Type": "white",
-          "Title": "Економія часу та коштів",
-          "Description": "Результат чекапу - це заключення лікаря про стан здоров’я та виявлені захворювання, а також рекомендації по лікуванню та профілактиці."
+          "Title": "Saving Time and Costs",
+          "Description": "Our methodologies reduce the time for diagnostics and treatment, lowering costs without compromising the quality of medical services."
         }
       ]
     },
     "ActionCall": {
-      "Title": "Запишіться безкоштовно на онлайн консультацію нашого лікаря прямо зараз!",
-      "Description": "Ми завжди раді допомогти вам а любій ситуації",
-      "Extra": "У нас ви дізнайтесь про реальний стан вашого здоров'я і також ми допоможемо вам запобігти розвитку небезпечних захворювань за допомогою профілактики. "
+      "Title": "Sign up for a free online consultation with our doctor right now!",
+      "Description": "We are always happy to help you in any situation",
+      "Extra": "Here, you will learn about the real state of your health, and we will also help you prevent the development of dangerous diseases through prevention."
     },
     "Services": {
-      "Title": "Ознайомтесь із нашими послугами",
+      "Title": "Ознакомьтесь с нашими услугами",
       "Cards": [
         {
-          "Title": "Комплексний Чекап клініці",
-          "Description": "Основне медичне обстеження, рекомендоване для осіб віком від 18 до 50 років. Воно включає аналізи та діагностику для виявлення найімовірніших захворювань та оцінки вашого загального стану здоров’я.",
-          "Extra": "послуга",
+          "Title": "Комплексный Чекап в клинике",
+          "Description": "Основное медицинское обследование, рекомендуемое для лиц в возрасте от 18 до 50 лет. Оно включает анализы и диагностику для выявления наиболее вероятных заболеваний и оценки вашего общего состояния здоровья.",
+          "Extra": "услуга",
           "Price": "490 ₴",
           "Link": "#"
         },
         {
-          "Title": "Індивідуальний Чекап у клініці",
-          "Description": "Персоналізоване обстеження, що враховує вашу спадковість, спосіб життя та індивідуальні ризики. Ідеально підходить для детального виявлення захворювань та складання плану профілактики.",
-          "Extra": "послуга",
+          "Title": "Индивидуальный Чекап в клинике",
+          "Description": "Персонализированное обследование, учитывающее вашу наследственность, образ жизни и индивидуальные риски. Идеально подходит для детального выявления заболеваний и составления плана профилактики.",
+          "Extra": "услуга",
           "Price": "680 ₴",
           "Link": "#"
         },
         {
-          "Title": "Індивідуальні консультації лікаря",
-          "Description": "«Персональні медичні консультації, що надають глибокий аналіз вашого стану здоров'я та підходящі методи лікування хронічних захворювань, таких як гіпертензія, діабет, захворювання легень та травної системи.",
-          "Extra": "послуга",
+          "Title": "Индивидуальные консультации врача",
+          "Description": "Персональные медицинские консультации, предоставляющие глубокий анализ вашего состояния здоровья и подходящие методы лечения хронических заболеваний, таких как гипертония, диабет, заболевания легких и пищеварительной системы.",
+          "Extra": "услуга",
           "Price": "680 ₴",
           "Link": "#"
         },
         {
-          "Title": "Медичне використання канабісу",
-          "Description": "Діагностика та підбір лікування з використанням медичного канабісу для полегшення симптомів хронічних болей, тривожності та інших станів відповідно до законодавства.",
-          "Extra": "послуга",
+          "Title": "Медицинское использование каннабиса",
+          "Description": "Диагностика и подбор лечения с использованием медицинского каннабиса для облегчения симптомов хронических болей, тревожности и других состояний в соответствии с законодательством.",
+          "Extra": "услуга",
           "Price": "490 ₴",
           "Link": "#"
         }
       ]
     },
     "Reviews": {
-      "Title": "Що говорять про нас наші пацієнти?"
+      "Title": "What do our patients say about us?"
     },
     "Facts": {
-      "Title": "Тільки факти в цифрах про нас і нічого лишнього",
+      "Title": "Just the facts about us in numbers, nothing more",
       "Cards": [
         {
           "Type": "count",
-          "Title": "314+",
-          "Description": "щасливих пацієнтів - наша гордість!"
+          "Title": "1843+",
+          "Description": "happy patients - our pride!"
         },
         {
           "Type": "clear",
           "Title": "",
-          "Description": "Ми прагнемо відпвідати навищим міжнародним стандартам неперевервно вивчаючи євпропейский досвід та адаптуючи його до наших реалій"
+          "Description": "We strive to meet the highest international standards, continuously studying European experience and adapting it to our realities"
         },
         {
           "Type": "count",
           "Title": "5+",
-          "Description": "років на ринку  коплесної медицини"
+          "Description": "years in the field of comprehensive medicine"
         },
         {
-          "Type": "tabetImage",
+          "Type": "tabletImage",
           "Title": "",
           "Description": ""
         },
@@ -124,87 +154,64 @@
         {
           "Type": "count",
           "Title": "9+",
-          "Description": "Рокфі середній стаж кожного лікаря"
+          "Description": "average years of experience per doctor"
         }
       ]
     },
     "FAQ": {
-      "Title": "Відповіді на часті питання наших пацієнтів",
+      "Title": "Answers to frequently asked questions from our patients",
       "Items": [
         {
-          "Title": "Що включає в себе комплексний чекап?",
-          "Description": "Наш комплексний чекап включає загальний огляд, лабораторні аналізи крові та сечі, діагностику основних систем організму (серцево-судинної, дихальної, травної), що допомагає виявити ризики здоров'я на ранніх стадіях."
+          "Title": "What does a comprehensive checkup include?",
+          "Description": "Our comprehensive checkup includes a general examination, laboratory blood and urine tests, diagnostics of the main body systems (cardiovascular, respiratory, digestive), which helps to detect health risks at early stages."
         },
         {
-          "Title": "Як зареєструватись та як скористатися програмами державної підтримки через НСЗУ в вашій клініці VEKMED?",
-          "Description": "Для реєстрації перейдіть на сторінку реєстрації на нашому сайті або зв'яжіться з нами за зручним для вас способом через Instagram, Telegram або email. Після реєстрації, ми допоможемо вам оформити всі необхідні документи та забезпечити доступ до медичних послуг, що покриваються державою."
+          "Title": "How do I register and how do I use state support programs through NSZU at your VEKMED clinic?",
+          "Description": "To register, visit the registration page on our website or contact us via Instagram, Telegram, or email in a way that's convenient for you. After registration, we will help you complete all necessary documents and provide access to state-covered medical services."
         },
         {
-          "Title": "Як часто потрібно проходити медичне обследование?",
-          "Description": "Ми рекомендуємо проходити медичне обследование, або чекап, щорічно для кращого моніторингу вашого здоров'я та вчасного виявлення можливих здоров'язних ускладнень."
+          "Title": "How often should I undergo a medical examination?",
+          "Description": "We recommend undergoing a medical examination, or checkup, annually for better monitoring of your health and timely detection of possible health complications."
         },
         {
-          "Title": "Які основні напрямки превентивної медицини ви пропонуєте?",
-          "Description": "У нашій клініці ми зосереджуємося на всебічному підході до підтримки вашого здоров'я. Ми пропонуємо регулярні медичні огляди, консультації з дієтологією, рекомендації щодо фізичної активності та індивідуально підібрані програми для підтримки оптимального рівня віталітету. Також ми надаємо поради з використання природних засобів для покращення вашого здоров'я, таких як 5-HTP для підтримки настрою, мелатонін для регуляції сну, цинк та магній для підтримки імунної системи, та екстракт львиного гриба для підвищення когнітивних функцій."
+          "Title": "What are the main areas of preventive medicine you offer?",
+          "Description": "In our clinic, we focus on a comprehensive approach to maintaining your health. We offer regular medical checkups, consultations with a nutritionist, recommendations for physical activity, and individually tailored programs to maintain optimal vitality levels. We also provide advice on using natural remedies to improve your health, such as 5-HTP for mood support, melatonin for sleep regulation, zinc and magnesium for immune system support, and lion's mane extract for cognitive function enhancement."
         },
         {
-          "Title": "Які терапевтичні послуги ви надаєте у Векмед?",
-          "Description": "Ми надаємо широкий спектр терапевтичних послуг, включаючи лікування загальних захворювань, управління хронічними станами, такими як гіпертонія та діабет, а також психологічну підтримку."
+          "Title": "What therapeutic services do you provide at VEKMED?",
+          "Description": "We offer a wide range of therapeutic services, including treatment of common diseases, management of chronic conditions such as hypertension and diabetes, and psychological support."
         },
         {
-          "Title": "Як я можу отримати консультацію щодо медичного використання канабісу в VEKMED?",
-          "Description": "Якщо ви зацікавлені у використанні медичного канабісу для лікування вашого стану, перш за все, вам потрібно звернутися до нашої клініки для консультації з кваліфікованим лікарем. На консультації лікар оцінить ваші медичні показання та визначить, чи є ви підходящим кандидатом для лікування за допомогою канабісу. Після цього, якщо це буде визнано доречним, лікар видасть рецепт і надасть інструкції щодо дозування та безпечного використання канабісу."
+          "Title": "How can I get a consultation regarding medical use of cannabis at VEKMED?",
+          "Description": "If you are interested in using medical cannabis to treat your condition, you should first visit our clinic for a consultation with a qualified doctor. During the consultation, the doctor will assess your medical indications and determine if you are a suitable candidate for treatment with cannabis. After that, if deemed appropriate, the doctor will issue a prescription and provide instructions on dosage and safe use of cannabis."
         }
       ]
     },
     "Footer": {
       "Details": {
-        "Title": "Клініка",
-        "Address": "Украіна - Київ Голосієво 145, офіс 45",
+        "Title": "Клиника",
+        "Address": "Украина - Киев, Голосеевский район, 145, офис 45",
         "Email": "vekmedcare@gmail.com",
         "Phone": "+380 98 808 18 28"
       },
       "Nav": {
-        "Title": "Навігація",
+        "Title": "Навигация",
         "Items": [
-          { "Text": "Послуги", "Link": "#" },
-          { "Text": "Відео-відугки пацієнтів", "Link": "#" },
-          { "Text": "Про нас", "Link": "#" },
-          { "Text": "Питання відповідь", "Link": "#" },
-          { "Text": "Контакти", "Link": "#" }
+          { "Text": "Услуги", "Link": "#" },
+          { "Text": "Видео-отзывы пациентов", "Link": "#" },
+          { "Text": "О нас", "Link": "#" },
+          { "Text": "Вопрос-ответ", "Link": "#" },
+          { "Text": "Контакты", "Link": "#" }
         ]
       },
       "Contacts": {
-        "Title": "Напишіть нам",
+        "Title": "Напишите нам",
         "Links": {
           "Inst": "https://instagram.com/yourprofile",
           "Telegram": "https://t.me/yourprofile",
           "Viber": "viber://chat?number=yourvibernumber"
         }
       }
-    }
-  },
-  "Buttons": {
-    "Free": {
-      "Text": "Безкоштовна Консультація",
-      "Link": "/"
-    },
-
-    "Order": {
-      "Text": "Замовити консультацію",
-      "Link": "/"
-    },
-    "More": {
-      "Text": "Більше",
-      "Link": "/"
-    },
-    "MoreServices": {
-      "Text": "Більше послуг",
-      "Link": "/"
-    },
-    "Register": {
-      "Text": "Реєстрація",
-      "Link": "/"
     }
   }
 }

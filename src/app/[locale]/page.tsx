@@ -18,7 +18,7 @@ import Service2 from "@/src/assets/images/service1-image.png";
 import Service3 from "@/src/assets/images/service1-image.png";
 import Service4 from "@/src/assets/images/service1-image.png";
 
-const locales = ["en", "ua", "alt"];
+const locales = ["en", "ua", "ru"];
 
 const serviceImages = [Service1, Service2, Service3, Service4];
 
@@ -34,14 +34,15 @@ export default function HomePage({ params: { locale } }: any) {
   const serviceCardsData = t.raw("MainPage.Services.Cards");
   const AccordionCardsData = t.raw("MainPage.FAQ.Items");
 
-  const serviceCardsObj = serviceCardsData.map((card : any, index : any) => ({
+  const serviceCardsObj = serviceCardsData.map((card: any, index: any) => ({
     ...card,
     Image: serviceImages[index],
   }));
 
-  const reasonDataCards = reasonDataCardsObj.map((data : any, index : any) => ({
+  const reasonDataCards = reasonDataCardsObj.map((data: any, index: any) => ({
     ...data,
-    displayIndex: data.Type === "white" || data.Type === "count" ? index + 1 : null,
+    displayIndex:
+      data.Type === "white" || data.Type === "count" ? index + 1 : null,
   }));
 
   return (

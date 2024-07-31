@@ -3,12 +3,27 @@ import styles from "./style.module.css";
 import Header from "../../../components/header";
 import { BlockWrapper } from "../../../components/wrappers";
 import Footer from "../../../components/footer";
-
+import Head from "next/head";
+import { useTranslations } from "next-intl";
 
 export default function Rights({ params: { locale } }: any) {
+  const t = useTranslations("rights");
+
   return (
     <>
-    <Header />
+      <Head>
+        <title>Права на контент та авторські права - VEKMED</title>
+        <meta
+          name="description"
+          content="Інформація про права на контент та авторські права на сайті VEKMED. Дізнайтеся про правила використання матеріалів та захист персональних даних."
+        />
+        <meta
+          name="keywords"
+          content="VEKMED, авторські права, права на контент, захист персональних даних"
+        />
+        <meta name="robots" content="index, follow" />
+      </Head>
+      <Header />
       <div className={styles.root}>
         <h1 className={styles.heading1}>Права на контент та авторські права</h1>
         <p className={styles.paragraph}>
