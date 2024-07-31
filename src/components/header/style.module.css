@@ -48,6 +48,11 @@
   background: #5ac5bf;
   border-radius: 10px;
   padding: 0.625em 1.375em;
+  transition: background-color 0.24s ease-in-out;
+}
+
+.RegisterBtn:hover {
+  background-color: #4da8a1;
 }
 
 .RegisterBtn img,

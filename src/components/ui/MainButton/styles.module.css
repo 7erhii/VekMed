@@ -10,6 +10,10 @@
   text-wrap: nowrap;
   gap: 1em;
   width: 100%;
+  transition: background-color 0.24s ease-in-out;
+}
+.OrangeBnt:hover {
+  background-color: var(--second-colorHr);
 }
 .WhiteBnt {
   display: flex;
@@ -24,7 +28,16 @@
   gap: 1em;
   width: 100%;
   border: 2px solid var(--second-color);
+  transition:
+    border 0.24s ease-in-out,
+    color 0.24s ease-in-out;
 }
+
+.WhiteBnt:hover {
+  border: 2px solid var(--second-colorHrBright);
+  color: var(--second-colorHrBright);
+}
+
 .whiteBorderless {
   display: flex;
   align-items: center;
@@ -37,7 +50,6 @@
   text-wrap: nowrap;
   gap: 1em;
   width: 100%;
-  /* border: 2px solid var(--second-color); */
 }
 
 .buttonIcon {
@@ -58,4 +70,27 @@
   border-radius: 100px;
   font-size: 1em;
   font-weight: 400;
+}
+.OrangeBnt,
+.WhiteBnt,
+.whiteBorderless {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  text-transform: capitalize;
+  gap: 1em;
+  width: 100%;
+}
+
+.buttonIcon {
+  width: 1.5em;
+  height: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.OrangeBnt:hover .buttonIcon,
+.WhiteBnt:hover .buttonIcon,
+.whiteBorderless:hover .buttonIcon {
+  transform: translateX(5px);
 }
