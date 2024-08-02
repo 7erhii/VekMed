@@ -40,17 +40,17 @@ export default function Header() {
         <div className={styles.HeaderBlockActions}>
           <div className={styles.HeaderSocial}>
             <SocialLink
-              href="https://t.me/vekmed"
+              href="https://t.me/vekmed_bot"
               src={TelegramIcon}
               alt="Telegram"
             />
             <SocialLink
-              href="https://t.me/vekmed"
+              href="https://t.me/vekmed_bot"
               src={TelegramIcon}
               alt="Telegram"
             />
             <SocialLink
-              href="https://t.me/vekmed"
+              href="https://t.me/vekmed_bot"
               src={TelegramIcon}
               alt="Telegram"
             />
