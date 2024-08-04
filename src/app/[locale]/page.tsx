@@ -47,7 +47,7 @@ export default function HomePage({ params: { locale } }: any) {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <BlockWrapper>
         <CustomTitle text={t("MainPage.Reason.Title")} />
