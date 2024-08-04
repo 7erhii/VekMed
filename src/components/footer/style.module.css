@@ -95,7 +95,7 @@
 .FooterColophon {
   padding: 1em 0;
   margin-top: 1em;
-  border-top: 1px solid rgb(207, 158, 255);
+  border-top: 1px solid #ff7272;
 }
 
 .FooterColophon > a {

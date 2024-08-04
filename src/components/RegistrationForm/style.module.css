@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em 1.25em;
+  border-radius: 0.5em;
+}
+
+.form {
+  width: 100%;
+}
+
+.formGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+
+.label {
+  display: block;
+  margin-bottom: 0.31em;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: var(--main-text-half);
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--main-text-half);
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+.input:focus {
+  border-color: var(--main-text);
+  outline: none;
+  box-shadow: 0 0 1px var(--main-text-half);
+}
+
+.inputWithIcon {
+  display: flex;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 0.63em;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: -2.19em;
+  right: 0;
+  background-color: var(--main-text);
+  color: #fff;
+  padding: 0.31em 0.63em;
+  border-radius: 0.25em;
+  font-size: 0.88em;
+  z-index: 1000;
+}
+
+.error {
+  color: hwb(0 15% 33%);
+  font-size: 0.88em;
+  margin-top: 0.31em;
+}
+
+.errorAbsolute {
+  position: absolute;
+  bottom: 3.5em;
+  left: 0;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--second-color);
+  color: var(--white);
+  text-transform: capitalize;
+  gap: 1em;
+  width: 100%;
+  transition: background-color 0.24s ease-in-out;
+  padding: 0.82em 3em;
+  border-radius: 100px;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.buttonIcon {
+  width: 1.5em;
+  height: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: var(--second-colorHr);
+}
+
+.submitButton:hover .buttonIcon {
+  transform: translateX(5px);
+}
+
+.passwordRequirements {
+  color: var(--main-text-half);
+  font-size: 0.88em;
+  margin-top: 0.5em;
+}
+
+.row {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1em;
+  align-items: flex-end;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itemShort {
+  width: 35%;
+}
+
+.dateInput, .phoneInput {
+  width: 100%;
+  border: 1px solid var(--main-text-half);
+  padding: 0.5em;
+  border-radius: 8px;
+}

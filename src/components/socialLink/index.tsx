@@ -1,20 +1,21 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-
 import styles from "./style.module.css";
 
 interface SocialLinkProps {
   href: string;
-  src: string;
+  ico: React.ElementType;
   alt: string;
+  text?: string;
+  className?: string;
 }
 
-const SocialLink = ({ href, src, alt }: SocialLinkProps) => {
+const SocialLink = ({ href, ico: Icon, alt, text, className = "" }: SocialLinkProps) => {
   return (
     <div>
-      <Link href={href} className={styles.HeaderSocialItem}>
-        <Image src={src} alt={alt} width={24} height={24} />
+      <Link href={href} className={`${styles.HeaderSocialItem} ${className}`}>
+        <Icon aria-label={alt} className={styles.Icon} />
+        {text && <p className={styles.Text}>{text}</p>}
       </Link>
     </div>
   );

@@ -1,23 +1,23 @@
 {
   "Buttons": {
     "Free": {
-      "Text": "Бесплатная консультация",
+      "Text": "Free Consultation",
       "Link": "/"
     },
     "Order": {
-      "Text": "Заказать консультацию",
+      "Text": "Order Consultation",
       "Link": "/"
     },
     "More": {
-      "Text": "Больше",
+      "Text": "More",
       "Link": "/"
     },
     "MoreServices": {
-      "Text": "Больше услуг",
+      "Text": "More Services",
       "Link": "/"
     },
     "Register": {
-      "Text": "Регистрация",
+      "Text": "Registration",
       "Link": "/"
     }
   },
@@ -213,5 +213,27 @@
         }
       }
     }
+  },
+  "Authorisation": {
+    "fullNameLabel": "Full Name",
+    "dobLabel": "Date of Birth",
+    "phoneLabel": "Phone Number",
+    "passwordLabel": "Password",
+    "submitButton": "Submit",
+    "fullNameTooltip": "Enter your full name",
+    "dobTooltip": "Enter your date of birth",
+    "phoneTooltip": "Enter your phone number",
+    "passwordTooltip": "Enter your password",
+    "fullNameRequired": "Full name is required (at least 4 characters)",
+    "dobRequired": "Date of birth is required",
+    "phoneRequired": "Phone number is required (at least 11 characters)",
+    "passwordRequired": "Password is required",
+    "fullNamePlaceholder": "John Doe",
+    "passwordRequirements": "Password must be 6-16 characters, include at least one uppercase letter, one lowercase letter, and one number.",
+    "passwordTooShort": "Too short",
+    "passwordWeak": "Weak",
+    "passwordGood": "Good",
+    "passwordStrong": "Strong",
+    "passwordVeryStrong": "Very strong"
   }
 }

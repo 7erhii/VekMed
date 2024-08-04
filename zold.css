@@ -1,0 +1,19 @@
+.w {
+  display: flex;
+}
+
+.inner {
+  display: flex;
+}
+.inner input {
+  padding: 10px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input{
+  min-height: 2em;
+}

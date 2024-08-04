@@ -51,9 +51,21 @@
   transition: background-color 0.24s ease-in-out;
 }
 
+/* .RegisterBtn:hover {
+  background-color: #5ac5bf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
 .RegisterBtn:hover {
-  background-color: #4da8a1;
+  background-color: #6fd1cb;
 }
+/* .RegisterBtn:hover {
+  background-color: #4bb3ae;
+} */
+
+/* .RegisterBtn:hover {
+  background-color: #4da8a1;
+} */
 
 .RegisterBtn img,
 .RegisterBtn svg {

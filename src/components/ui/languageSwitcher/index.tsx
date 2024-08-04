@@ -1,14 +1,15 @@
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import styles from "./styles.module.css";
 
 const LanguageSwitcher = ({ locale }: { locale: string }) => {
   const router = useRouter();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const changeLanguage = (value: string) => {
     if (value !== locale) {
-      router.replace(`/${value}`);
+      router.replace(pathname.replace(`/${locale}`, `/${value}`));
     }
     setIsOpen(false);
   };

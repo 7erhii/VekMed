@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* style reset */
 
 body {
@@ -45,6 +44,37 @@ span {
     --third-text: rgba(24, 34, 51, 0.65);
     --bold-text: #1d1d33;
     --text-white-pass: rgba(255, 255, 255, 0.65);
-    --primary-color: #4a5568; /* deleate? */
+    --social-icons: #40514e; /* deleate? */
   }
 }
+
+.red-background {
+  background-color: red;
+}
+
+/* 
+.react-tel-input .form-control {
+  width: 100%!important;
+
+
+  position: relative;
+    font-size: 1em!important;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0.5em!important;
+    padding-left: 3em!important;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #ee4b4b;
+    border-radius: 6px;
+    line-height: 175%!important;
+    height: unset!important;
+    outline: none;
+    border: 1px solid var(--main-text-half)!important;
+
+}
+.flag-dropdown {
+  border: 1px solid var(--main-text-half)!important;
+} */
+

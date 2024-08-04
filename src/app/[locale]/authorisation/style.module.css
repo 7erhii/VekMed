@@ -1,0 +1,26 @@
+.RegistrationWrapper{
+  display: flex;
+  flex-direction: column;
+  /* gap: 3.3em; */
+
+  padding: 2em 1em 1em 1em;
+}
+
+.RegistrationSection {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.RegistrationForm {
+  width: 40%;
+}
+
+.RegistrationDetails {
+  position: relative;
+  width: 60%;
+  height: 100%;
+}

@@ -1,23 +1,23 @@
 {
   "Buttons": {
     "Free": {
-      "Text": "Free Consultation",
+      "Text": "Бесплатная консультация",
       "Link": "/"
     },
     "Order": {
-      "Text": "Order Consultation",
+      "Text": "Заказать консультацию",
       "Link": "/"
     },
     "More": {
-      "Text": "More",
+      "Text": "Больше",
       "Link": "/"
     },
     "MoreServices": {
-      "Text": "More Services",
+      "Text": "Больше услуг",
       "Link": "/"
     },
     "Register": {
-      "Text": "Registration",
+      "Text": "Регистрация",
       "Link": "/"
     }
   },
@@ -214,5 +214,27 @@
         }
       }
     }
+  },
+  "Authorisation": {
+    "fullNameLabel": "ФИО",
+    "dobLabel": "Дата рождения",
+    "phoneLabel": "Номер телефона",
+    "passwordLabel": "Пароль",
+    "submitButton": "Отправить",
+    "fullNameTooltip": "Введите ваше полное имя",
+    "dobTooltip": "Введите вашу дату рождения",
+    "phoneTooltip": "Введите ваш номер телефона",
+    "passwordTooltip": "Введите ваш пароль",
+    "fullNameRequired": "ФИО обязательно (не менее 4 символов)",
+    "dobRequired": "Дата рождения обязательна",
+    "phoneRequired": "Номер телефона обязателен (не менее 11 символов)",
+    "passwordRequired": "Пароль обязателен",
+    "fullNamePlaceholder": "Иванов Иван Иванович",
+    "passwordRequirements": "Пароль должен быть от 6 до 16 символов, содержать как минимум одну заглавную букву, одну строчную букву и одну цифру.",
+    "passwordTooShort": "Слишком короткий",
+    "passwordWeak": "Слабый",
+    "passwordGood": "Хороший",
+    "passwordStrong": "Сильный",
+    "passwordVeryStrong": "Очень сильный"
   }
 }

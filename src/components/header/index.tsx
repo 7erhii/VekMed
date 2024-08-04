@@ -8,7 +8,10 @@ import LanguageSwitcher from "../ui/languageSwitcher";
 import { useParams } from "next/navigation";
 import SocialLink from "../socialLink";
 
-import TelegramIcon from "@/src/assets/icons/social-telegram.svg";
+// Icons
+import { FaInstagram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { GoMail } from "react-icons/go";
 import IconUser from "@/src/assets/icons/icon-user.svg";
 import { useTranslations } from "next-intl";
 
@@ -41,18 +44,19 @@ export default function Header() {
           <div className={styles.HeaderSocial}>
             <SocialLink
               href="https://t.me/vekmed_bot"
-              src={TelegramIcon}
+              ico={FaTelegram}
               alt="Telegram"
+              text="Bot"
             />
             <SocialLink
-              href="https://t.me/vekmed_bot"
-              src={TelegramIcon}
-              alt="Telegram"
+              href="https://www.instagram.com/vekmed"
+              ico={FaInstagram}
+              alt="Instagram"
             />
             <SocialLink
-              href="https://t.me/vekmed_bot"
-              src={TelegramIcon}
-              alt="Telegram"
+              href="mailto:contact@vekmed.com"
+              ico={GoMail}
+              alt="Email"
             />
           </div>
           <Link href="/" className={styles.RegisterBtn}>

@@ -251,5 +251,27 @@
   "contacts": {
     "title": "Контакти",
     "description": "Якщо у вас є запитання стосовно авторських прав або використання матеріалів сайту, будь ласка, зв’яжіться з нами за адресою vekmedcare@gmail.com або за телефоном +380988081828."
+  },
+  "Authorisation": {
+    "fullNameLabel": "ПІБ",
+    "dobLabel": "Дата народження",
+    "phoneLabel": "Номер телефону",
+    "passwordLabel": "Пароль",
+    "submitButton": "Відправити",
+    "fullNameTooltip": "Введіть ваше повне ім'я",
+    "dobTooltip": "Введіть вашу дату народження",
+    "phoneTooltip": "Введіть ваш номер телефону",
+    "passwordTooltip": "Введіть ваш пароль",
+    "fullNameRequired": "ПІБ обов'язкове (не менше 4 символів)",
+    "dobRequired": "Дата народження обов'язкова",
+    "phoneRequired": "Номер телефону обов'язковий (не менше 11 символів)",
+    "passwordRequired": "Пароль обов'язковий",
+    "fullNamePlaceholder": "Іванов Іван Іванович",
+    "passwordRequirements": "Пароль має бути від 6 до 16 символів, містити принаймні одну велику літеру, одну малу літеру та одну цифру.",
+    "passwordTooShort": "Занадто короткий",
+    "passwordWeak": "Слабкий",
+    "passwordGood": "Добрий",
+    "passwordStrong": "Сильний",
+    "passwordVeryStrong": "Дуже сильний"
   }
 }
