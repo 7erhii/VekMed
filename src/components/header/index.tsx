@@ -59,7 +59,7 @@ export default function Header() {
               alt="Email"
             />
           </div>
-          <Link href="/" className={styles.RegisterBtn}>
+          <Link href={`"${locale}/authorisation"`} className={styles.RegisterBtn}>
             <Image src={IconUser} alt="user icon" />
             <p>{t("Buttons.Register.Text")}</p>
           </Link>
