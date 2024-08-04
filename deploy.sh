@@ -6,6 +6,10 @@ PROJECT_DIR="/root/vekmed"
 # Переход в директорию проекта
 cd $PROJECT_DIR
 
+git add .
+
+git commit -m "checkout"
+
 # Обновление репозитория
 git pull origin main
 
