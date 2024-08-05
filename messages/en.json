@@ -23,9 +23,9 @@
   },
   "MainPage": {
     "HeaderMeta": {
-      "title": "Медичний центр векмед чекапи",
-      "description": "проведеня чекапів консультування с привентивної медицини, консультування канабіс",
-      "descriptionOg": "Чекап проведеня чекапів консультування с привентивної медицини, консультування канабіс"
+      "title": "Medical Center VEKMED Check-ups",
+      "description": "conducting check-ups, preventive medicine consultations, cannabis consultations",
+      "descriptionOg": "Check-up conducting, preventive medicine consultations, cannabis consultations"
     },
     "Hero": {
       "Info": "We have state support for our patients",
@@ -189,23 +189,23 @@
     },
     "Footer": {
       "Details": {
-        "Title": "Клиника",
-        "Address": "Украина - Киев, Голосеевский район, 145, офис 45",
+        "Title": "Clinic",
+        "Address": "Ukraine - Kyiv, Holosiivskyi District, 145, office 45",
         "Email": "vekmedcare@gmail.com",
         "Phone": "+380 98 808 18 28"
       },
       "Nav": {
-        "Title": "Навигация",
+        "Title": "Navigation",
         "Items": [
-          { "Text": "Услуги", "Link": "#" },
-          { "Text": "Видео-отзывы пациентов", "Link": "#" },
-          { "Text": "О нас", "Link": "#" },
-          { "Text": "Вопрос-ответ", "Link": "#" },
-          { "Text": "Контакты", "Link": "#" }
+          { "Text": "Services", "Link": "#" },
+          { "Text": "Patient Video Testimonials", "Link": "#" },
+          { "Text": "About Us", "Link": "#" },
+          { "Text": "FAQ", "Link": "#" },
+          { "Text": "Contacts", "Link": "#" }
         ]
       },
       "Contacts": {
-        "Title": "Напишите нам",
+        "Title": "Write to us",
         "Links": {
           "Inst": "https://instagram.com/yourprofile",
           "Telegram": "https://t.me/yourprofile",
@@ -214,8 +214,45 @@
       }
     }
   },
+  "meta": {
+    "title": "Content Rights and Copyrights - VEKMED",
+    "description": "Information about content rights and copyrights on the VEKMED website. Learn about the rules for using materials and protecting personal data.",
+    "keywords": "VEKMED, copyrights, content rights, personal data protection"
+  },
+  "header": {
+    "mainTitle": "Content Rights and Copyrights"
+  },
+  "contentProtection": {
+    "description": "VEKMED – copyright protection. All site content, including texts, graphics, logos, icons, images, and software, is protected by Ukrainian and international copyright laws."
+  },
+  "materialsUsage": {
+    "title": "Use of Materials",
+    "license": "The site's materials are available for personal non-commercial use.",
+    "prohibitions": "Any copying, distribution, public reproduction, or other commercial use of the content without VEKMED's written permission is strictly prohibited."
+  },
+  "dataProtection": {
+    "title": "Personal Data Protection",
+    "description": "Our organization takes personal data protection seriously. Below you will find information about security measures and your rights as users.",
+    "dataCollection": {
+      "title": "Collection and Use of Information",
+      "description": "The data we collect is used to provide medical services, plan treatment, and manage clinical practice."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "description": "All personal data is stored on secure servers, access to which is strictly regulated to prevent unauthorized access, loss, or destruction."
+    },
+    "userRights": {
+      "title": "User Rights",
+      "access": "Users have the right to request access to their personal data, its correction, or deletion.",
+      "processingRestrictions": "You can also request restrictions on the processing of your data or object to its processing."
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "description": "If you have questions regarding copyrights or the use of site materials, please contact us at vekmedcare@gmail.com or call +380988081828."
+  },
   "Authorisation": {
-    "fullNameLabel": "Full Name",
+    "fullNameLabel": "Full Name (Only on Ukrainian language currently)",
     "dobLabel": "Date of Birth",
     "phoneLabel": "Phone Number",
     "passwordLabel": "Password",
@@ -224,16 +261,52 @@
     "dobTooltip": "Enter your date of birth",
     "phoneTooltip": "Enter your phone number",
     "passwordTooltip": "Enter your password",
-    "fullNameRequired": "Full name is required (at least 4 characters)",
+    "fullNameRequired": "Full name is required",
     "dobRequired": "Date of birth is required",
-    "phoneRequired": "Phone number is required (at least 11 characters)",
+    "phoneRequired": "Phone number is required",
     "passwordRequired": "Password is required",
-    "fullNamePlaceholder": "John Doe",
-    "passwordRequirements": "Password must be 6-16 characters, include at least one uppercase letter, one lowercase letter, and one number.",
+    "fullNamePlaceholder": "Іванов Іван Іванович",    "passwordRequirements": "Password must be 6-16 characters, include at least one uppercase letter, one lowercase letter, and one number.",
     "passwordTooShort": "Too short",
     "passwordWeak": "Weak",
     "passwordGood": "Good",
     "passwordStrong": "Strong",
-    "passwordVeryStrong": "Very strong"
+    "passwordVeryStrong": "Very strong",
+    "haveAnAccount": "Already have an account?"
+  },
+  "Login": {
+    "authorisationAccount": "Account Authorization",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+380 XX XXX XX XX",
+    "phoneTooltip": "Enter your phone number.",
+    "phoneRequired": "Phone number is required.",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "********",
+    "passwordTooltip": "Enter your password.",
+    "passwordRequired": "Password is required.",
+    "submitButton": "Log In",
+    "needAccount": "Register",
+    "forgotPassword": "Forgot Password?"
+  },
+  "ForgotPassword": {
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+380 XX XXX XX XX",
+    "phoneTooltip": "Enter your phone number.",
+    "phoneRequired": "Phone number is required.",
+    "newPasswordLabel": "Enter New Password",
+    "newPasswordPlaceholder": "********",
+    "newPasswordTooltip": "Enter your new password.",
+    "passwordRequired": "Password is required.",
+    "confirmPasswordLabel": "Confirm Your Password",
+    "confirmPasswordPlaceholder": "********",
+    "confirmPasswordTooltip": "Confirm your new password.",
+    "confirmPasswordRequired": "Passwords do not match.",
+    "submitButton": "Send",
+    "changePasswordButton": "Change Password",
+    "passwordTooShort": "Too short",
+    "passwordWeak": "Weak",
+    "passwordGood": "Good",
+    "passwordStrong": "Strong",
+    "passwordVeryStrong": "Very strong",
+    "passwordRequirements": "Password must be 6 to 16 characters long, contain at least one uppercase letter and one digit."
   }
 }

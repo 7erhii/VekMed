@@ -1,4 +1,4 @@
-.RegistrationWrapper{
+.RegistrationWrapper {
   display: flex;
   flex-direction: column;
   /* gap: 3.3em; */
@@ -16,11 +16,47 @@
 }
 
 .RegistrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 40%;
+  padding: 3em 4em;
+}
+
+.AuthorisationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  padding: 3em 4em;
+}
+.ForgotForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  padding: 3em 4em;
 }
 
 .RegistrationDetails {
   position: relative;
   width: 60%;
   height: 100%;
+}
+
+.formextraButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formextraButton button {
+  display: flex;
+  color: var(--main-text);
+  padding: 1em 0;
+  margin-top: 0.5em;
+  /* padding-left: 0; */
+  /* background: #000; */
+  cursor: pointer;
+  color: #151515;
+  border-radius: 50px;
 }

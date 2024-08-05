@@ -2,7 +2,6 @@
   display: flex;
   width: 100%;
   margin: 0 auto;
-  /* padding: 2em 1.25em; */
   border-radius: 0.5em;
 }
 
@@ -17,7 +16,6 @@
   margin-bottom: 1em;
   width: 100%;
 }
-
 
 .label {
   display: block;
@@ -76,6 +74,11 @@
   bottom: 3.5em;
   left: 0;
 }
+.errorAbsoluteForgot {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0;
+}
 
 .buttonGroup {
   display: flex;
@@ -110,34 +113,4 @@
 
 .submitButton:hover .buttonIcon {
   transform: translateX(5px);
-}
-
-.passwordRequirements {
-  color: var(--main-text-half);
-  font-size: 0.88em;
-  margin-top: 0.5em;
-}
-
-.row {
-  display: flex;
-  gap: 2em;
-  margin-bottom: 1em;
-  align-items: baseline;
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.itemShort {
-  width: 35%;
-}
-
-.dateInput, .phoneInput {
-  width: 100%;
-  border: 1px solid var(--main-text-half);
-  padding: 0.5em;
-  border-radius: 8px;
 }

@@ -1,13 +1,19 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { GoQuestion } from "react-icons/go";
 import { useTranslations } from "next-intl";
 import PasswordStrengthBar from "react-password-strength-bar";
 import InputMask from "react-input-mask";
+import axios from "axios";
 
 // Styles
 import styles from "./style.module.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import router from "next/router";
+
+// Hooks
+// import { useCreateUser } from "@/src/hooks/create-user";
+// import { TbXxx } from "react-icons/tb";
 
 interface FormData {
   fullName: string;
@@ -44,6 +50,20 @@ export default function RegistrationForm() {
     password: false,
   });
 
+  useEffect(() => {
+    const validateKey = async () => {
+      try {
+        const response = await axios.post("/validate-key");
+        if (response.status !== 200) {
+          await axios.post("/generate-key");
+        }
+      } catch (error) {
+        console.error("Error validating auth key", error);
+      }
+    };
+    validateKey();
+  }, []);
+
   const validate = () => {
     let errors: FormErrors = {};
     const nameRegex = /^[A-Za-zА-Яа-яЁёЇїІіЄєҐґ\s]+$/;
@@ -68,12 +88,29 @@ export default function RegistrationForm() {
     return Object.keys(errors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     if (validate()) {
-      console.log("Form submitted", formData);
+      try {
+        // Отправляем данные формы на сервер для регистрации
+        const response = await axios.post("/api/register", formData);
+
+        if (response.data.status === "verified_and_logged_in") {
+          // Переадресация на главную страницу или панель пользователя
+          router.push("/dashboard");
+        }
+      } catch (error) {
+        console.error("Registration error:", error);
+        // Обработка ошибок, например, показ сообщения пользователю
+      }
     }
   };
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   if (validate()) {
+  //     console.log("Form submitted", formData);
+  //   }
+  // };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
@@ -193,7 +230,11 @@ export default function RegistrationForm() {
               t("passwordVeryStrong"),
             ]}
           />{" "}
-          {errors.password && <p className={`${styles.error} ${styles.errorAbsolute}`}>{errors.password}</p>}
+          {errors.password && (
+            <p className={`${styles.error} ${styles.errorAbsolute}`}>
+              {errors.password}
+            </p>
+          )}
           <p className={styles.passwordRequirements}>
             {t("passwordRequirements")}
           </p>
